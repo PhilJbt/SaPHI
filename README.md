@@ -1,3 +1,3 @@
 # SaPHI
  
-[Philjbt.github.io/SaPHI](https://philjbt.github.io/SaPHI/)
+[Philjbt.github.io/Saphi](https://philjbt.github.io/Saphi/)
