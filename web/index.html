@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SaPHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Search bar -->
+      <div class="col s12 searchbar">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">search</i>
+          <input disabled type="text" id="inp_nomali" class="autocomplete">
+          <label for="inp_nomali">Nom de l'aliment</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Title -->
+      <div class="row">
+        <div class="col s12">
+          <h3 id="tt">...</h3>
+        </div>
+      </div>
+      <!-- Salicylates -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Salicylates</span>
+              <div id="sa">
+                <div class="chip">...</div>
+              </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip chipsa green darken-4">Bas (0 mg)</div>
+                    <div class="chip chipsa yellow darken-4">Bas-moyen (> 0,06 mg)</div>
+                    <div class="chip chipsa orange darken-4">Moyen (> 0,10 mg)</div>
+                    <div class="chip chipsa red darken-4">Moyen-haut (> 0,60 mg)</div>
+                    <div class="chip chipsa purple darken-4">Haut (> 1.00 mg)</div>
+                    <div class="chip chipsa grey darken-4">Très haut (> 20.00 mg)</div>
+                  </span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Amines -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Amines</span>
+              <div id="am">
+                <div class="chip">...</div>
+              </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip">A : Amines</div>
+                    <div class="chip">H : Histamines</div>
+                    <div class="chip">L : Libérateurs d'histamines</div>
+                    <div class="chip">I : Inhibiteur d'enzymes</div>
+                  </span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Ph -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Ph</span>
+              <div id="ph">
+                <div class="chip">...</div>
+              </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip light-green accent-2">Alcalinisant</div>
+                    <div class="chip light-green accent-2">À consommer au moins à 70%</div>
+                    <div class="chip light-green accent-2">Valeur jusqu'à -95</div>
+                    <div class="chip yellow accent-2">Acidifiant</div>
+                    <div class="chip yellow accent-2">À consommer peu ou pas du tout</div>
+                    <div class="chip yellow accent-2">Valeur jusqu'à +37</div>
+                  </span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- IG -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Index glycémique</span>
+              <div id="ig">
+                <div class="chip">...</div>
+              </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip">Valeurs pour 100 gr</div>
+                    <div class="chip green">Faible : Entre 0 et 50</div>
+                    <div class="chip yellow">Moyen : Entre 51 et 70</div>
+                    <div class="chip red">Élevé : 71 et 100</div>
+                  </span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pre/probiotique -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Pré/Probiotique</span>
+              <div id="bi">
+                <div class="chip">...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fodmaps -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Fodmap</span>
+              <div id="fd">
+                <div class="chip">...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Comments -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Commentaires</span>
+              <div id="cm">
+                <div class="chip">...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script>
+
+</script>

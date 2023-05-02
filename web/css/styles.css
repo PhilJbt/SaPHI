@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/materialicons.woff2) format('woff2');
+}
+
+.badge {
+	color: #000 !important;
+	margin: 5px;
+	float: none !important;
+}
+
+blockquote {
+	margin-bottom: 0px !important;
+}
+
+.collapsible {
+	margin-bottom: 0px !important;
+	border: none;
+}
+
+.collapsible-header, .collapsible-body {
+	border: none;
+}
+
+.collapsible-header {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.collapsible-body {
+	padding: 1.25rem;
+}
+
+#sa, #am, #ph, #ig, #bi, #fd, #cm {
+	margin: 2em !important;
+}
+
+.card-title {
+	font-weight: 600 !important;
+}
+
+.chip {
+	font-weight: 600 !important;
+}
+
+.chipsa {
+	color: white !important;
+}
+
+.chipam {
+	color: #ffffff !important;
+}
+
+.chipph {
+	color: #000 !important;
+}
+
+.chipig {
+	color: #000 !important;
+}
+
+.chipfd {
+	color: #fff !important;
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-moz-font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.searchbar {
+	margin-top: 1.5em;
+}

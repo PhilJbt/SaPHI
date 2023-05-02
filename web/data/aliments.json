@@ -1,0 +1,3863 @@
+[
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Abats",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "57",
+        "nm": "Abricot",
+        "ph": "-4.33",
+        "sa": "2.58"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Abricot sec",
+        "ph": "-21.66",
+        "sa": "4.5"
+    },
+    {
+        "am": "4AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Agrumes",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Ail (cuit)",
+        "ph": "-2.0",
+        "sa": "0.1"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Ail des ours",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4L",
+        "cm": "Riche en iode",
+        "fd": "2",
+        "ig": "?",
+        "nm": "Algues, Nori, Kombu, Wakamé, Varech",
+        "ph": "-2.5",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "0",
+        "nm": "Amande",
+        "ph": "2.36",
+        "sa": "3"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Ananas",
+        "ph": "-2.34",
+        "sa": "2.1"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Ananas (conserve)",
+        "ph": "?",
+        "sa": "1.36"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Ananas (confit)",
+        "ph": "-18.37",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Anchois",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Anchois (à l’huile d’olive)",
+        "ph": "7.25",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Aneth (graines, poudre)",
+        "ph": "-33.19",
+        "sa": "94.4"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Aneth (frais, cru)",
+        "ph": "-15.49",
+        "sa": "6.9"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Aneth (déshydraté)",
+        "ph": "-74.51",
+        "sa": "6.9"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Anis vert (frais)",
+        "ph": "-5",
+        "sa": "22.8"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Arachide",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Artichaut",
+        "ph": "-4.8",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Asperge (conserve)",
+        "ph": "-1.75",
+        "sa": "0.32"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Asperge (fraîche)",
+        "ph": "-2.19",
+        "sa": "0.14"
+    },
+    {
+        "am": "3H",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Aubergine (pelée)",
+        "ph": "-1.99",
+        "sa": "0.3"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Avocat",
+        "ph": "-8.19",
+        "sa": "0.6"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Avoine (céréale)",
+        "ph": "13.31",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "54",
+        "nm": "Avoine (flocons)",
+        "ph": "10",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Baie de Goji",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3A",
+        "cm": null,
+        "fd": "0",
+        "ig": "52",
+        "nm": "Banane",
+        "ph": "-6",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Basilic Frais",
+        "ph": "10.01",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Betterave",
+        "ph": "-3.13",
+        "sa": "0.11"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "64",
+        "nm": "Betterave-rouge",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Beurre, beurre de cacao",
+        "ph": "0.4",
+        "sa": "?"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Bière",
+        "ph": "-0.07",
+        "sa": "1.0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "41",
+        "nm": "Blé (céréale)",
+        "ph": "8.2",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Blette, Bette",
+        "ph": "-12.38",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "69",
+        "nm": "Blinis",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Boeuf haché (très frais)",
+        "ph": "9",
+        "sa": "0"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Boeuf",
+        "ph": "13.04",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Boudin Blanc",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Boudin Noir",
+        "ph": "4.26",
+        "sa": "?"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Brandy",
+        "ph": "?",
+        "sa": "0.4"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "15",
+        "nm": "Broccoli",
+        "ph": "-2.5",
+        "sa": "0.6"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Brugnon",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "14",
+        "nm": "Cacahuète",
+        "ph": "5.75",
+        "sa": "1.12"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cacao (poudre)",
+        "ph": "-30.7",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Café chicorée",
+        "ph": "?",
+        "sa": "2.26"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Café expresso",
+        "ph": "-4.2",
+        "sa": "0.45"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Café frais",
+        "ph": "-1",
+        "sa": "0.45"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Café Décaféïné",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Café Instantané",
+        "ph": "-67.38",
+        "sa": "0.59"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Camemberg",
+        "ph": "13.05",
+        "sa": "0.01"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Camomille (tisane)",
+        "ph": "?",
+        "sa": "0.006"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Canard, Caille",
+        "ph": "12.5",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cannelle",
+        "ph": "-23,76",
+        "sa": "42.5"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cantal",
+        "ph": "15.86",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Caramel (maison)",
+        "ph": "-3.49",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Caramel industriel E150",
+        "ph": "?",
+        "sa": "0.12"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cardamome",
+        "ph": "-22,57",
+        "sa": "7.7"
+    },
+    {
+        "am": "0",
+        "cm": "Ph de -1.0 quand congelée",
+        "fd": "0",
+        "ig": "49",
+        "nm": "Carotte (pelée)",
+        "ph": "-4.5",
+        "sa": "0.23"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Caroube",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Carvi",
+        "ph": "-13.33",
+        "sa": "2.82"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cassis",
+        "ph": "-5.23",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Cayenne",
+        "ph": "-31.44",
+        "sa": "17.6"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Céleri (poudre)",
+        "ph": "-34.72",
+        "sa": "10.1"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Céleri frais",
+        "ph": "-5.4",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Cerise",
+        "ph": "-3.03",
+        "sa": "0.85"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "22",
+        "nm": "Cerise (boîte)",
+        "ph": "-1.61",
+        "sa": "2.78"
+    },
+    {
+        "am": "4HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Champagne",
+        "ph": "?",
+        "sa": "1.02"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Champignon (conserve)",
+        "ph": "?",
+        "sa": "1.26"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Champignon frais",
+        "ph": "-3.58",
+        "sa": "0.24"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Champignons de Paris (cru)",
+        "ph": "-2.20",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chapelure",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Charcuterie",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Châtaigne d’eau (conserve), Marrons",
+        "ph": "-8.99",
+        "sa": "2.92"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Cheddar",
+        "ph": "15.2",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Chèvre",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Chia",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Chicorée fraîche",
+        "ph": "?",
+        "sa": "1.02"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Chocolat chaud, boissons cacao",
+        "ph": "-4.41",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "41",
+        "nm": "Chocolat au lait",
+        "ph": "-0.46",
+        "sa": "?"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "44",
+        "nm": "Chocolat noir",
+        "ph": "-6.12",
+        "sa": "?"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou de Bruxelles",
+        "ph": "-4.4",
+        "sa": "0.07"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou Chinois",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Choucroute",
+        "ph": "-3.38",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "15",
+        "nm": "Chou-Fleur",
+        "ph": "-1.34",
+        "sa": "0.16"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou Frisé (cuit)",
+        "ph": "-8.34",
+        "sa": "?"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou-Rave",
+        "ph": "-5.5",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou-Rouge",
+        "ph": "-4.4",
+        "sa": "0.08"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "15",
+        "nm": "Chou Vert ou blanc",
+        "ph": "-4.23",
+        "sa": "0"
+    },
+    {
+        "am": "2",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Ciboulette (fraîche)",
+        "ph": "-4.76",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Cidre",
+        "ph": "-2.45",
+        "sa": "0.18"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Citron",
+        "ph": "-2.31",
+        "sa": "0.18"
+    },
+    {
+        "am": "4AL",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Citron vert",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Clafoutis",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "30",
+        "nm": "Clémentine",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Clou de girofle",
+        "ph": "?",
+        "sa": "0.1"
+    },
+    {
+        "am": "2",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Coca-cola",
+        "ph": "?",
+        "sa": "0.25"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Coing",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4ALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Cointreau",
+        "ph": "?",
+        "sa": "0.66"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Compote (sans sucre ajouté)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Comté",
+        "ph": "23.99",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Concombre (pelé)",
+        "ph": "-2.43",
+        "sa": "0.78"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Confiseries",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "51",
+        "nm": "Confiture (sans sucre ajouté)",
+        "ph": "-1.1",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Coprah",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Coquillages, Mollusques, Crustacés",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Coquille St-Jacques",
+        "ph": "8.51",
+        "sa": "0.02"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Coriandre (fraîche)",
+        "ph": "-9.67",
+        "sa": "0.2"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Coriandre (sèche)",
+        "ph": "-23.21",
+        "sa": "?"
+    },
+    {
+        "am": "3H",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cornichons (au vinaigre)",
+        "ph": "0.09",
+        "sa": "6.14"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Courge, graines de courge",
+        "ph": "-8.68",
+        "sa": "0.17"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Courgette",
+        "ph": "-4.2",
+        "sa": "1.04"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Couscous (sec)",
+        "ph": "7.6",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "40",
+        "nm": "Crème dessert, pâtissière, anglaise, au beurre",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "2H",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Crème fraîche",
+        "ph": "1.5",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Crème Fleurette, Crème crue (sans additifs)",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "69",
+        "nm": "Crêpes",
+        "ph": "2.98",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Cresson",
+        "ph": "-7.5",
+        "sa": "0.84"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Crevettes",
+        "ph": "10.1",
+        "sa": "0.04"
+    },
+    {
+        "am": "2",
+        "cm": null,
+        "fd": "2",
+        "ig": "67",
+        "nm": "Croissant",
+        "ph": "4.53",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cumin",
+        "ph": "-31,98",
+        "sa": "45"
+    },
+    {
+        "am": "0",
+        "cm": "Anti-allergique",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Cumin noir (nigelle)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Curcuma",
+        "ph": "-46.67",
+        "sa": "76"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Curry",
+        "ph": "-26.10",
+        "sa": "218"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "100",
+        "nm": "Datte",
+        "ph": "-11.91",
+        "sa": "4"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Dinde",
+        "ph": "11",
+        "sa": "0"
+    },
+    {
+        "am": "0HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Dorade (fraîche, congelée)",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Eau de source thermale",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Echalote (crue)",
+        "ph": "-4.6",
+        "sa": "0.03"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Ecorce citron",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "4L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Ecorce d’orange",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Endive",
+        "ph": "-3",
+        "sa": "1.9"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Epinard (surgelé)",
+        "ph": "-6.65",
+        "sa": "0.16"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Epinard (frais)",
+        "ph": "-10.5",
+        "sa": "0.6"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Estragon sec",
+        "ph": "-64,51",
+        "sa": "34.8"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Faisselle",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fenouil (poudre)",
+        "ph": "-35.37",
+        "sa": "0.8"
+    },
+    {
+        "am": "?",
+        "cm": "Effet équilibrant",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fenouil (bulbe frais)",
+        "ph": "-7.32",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fenouil (graines)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fenugrec (poudre)",
+        "ph": "?",
+        "sa": "12.2"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fenugrec",
+        "ph": "-1.2",
+        "sa": "?"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Feta",
+        "ph": "11.46",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "1",
+        "ig": "48",
+        "nm": "Fève",
+        "ph": "-0.27",
+        "sa": "0.73"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Figue (fraîche)",
+        "ph": "-4.88",
+        "sa": "0.18"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "1",
+        "ig": "61",
+        "nm": "Figue (sèche)",
+        "ph": "-17.0",
+        "sa": "0.64"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "31",
+        "nm": "Flageolets",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "65",
+        "nm": "Flan",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Foie",
+        "ph": "?",
+        "sa": "0.06"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Foie de morue (fumé)",
+        "ph": "7.23",
+        "sa": "?"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Fraise",
+        "ph": "-2.54",
+        "sa": "1.36"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Framboise",
+        "ph": "-2.41",
+        "sa": "5.14"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "75",
+        "nm": "Frites (surgelées)",
+        "ph": "-8.78",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fromages Affinés, Pâtes dures, Vieux",
+        "ph": "22.5",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Fromage Blanc, Fromage Frais",
+        "ph": "11.1",
+        "sa": "?"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Fromage Bleu",
+        "ph": "11.97",
+        "sa": "0.06"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fromage Brebis",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fromage Brie",
+        "ph": "10",
+        "sa": "0.05"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Fromage Fondu",
+        "ph": "28.7",
+        "sa": "?"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Fromage au Lait cru",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Fromage à Raclette",
+        "ph": "18.38",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "30",
+        "nm": "Fruit de la passion",
+        "ph": "-4.62",
+        "sa": "0.14"
+    },
+    {
+        "am": "1",
+        "cm": "Contient des sulfites",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Fruits Secs",
+        "ph": "?",
+        "sa": "4.5"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Germe de soja",
+        "ph": "?",
+        "sa": "4.5"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Ghee",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "2H",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Gibier",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3LI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Gin",
+        "ph": "0",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Gingembre (frais)",
+        "ph": "-7.89",
+        "sa": "4.5"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Glaces (maison)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "61",
+        "nm": "Glaces, Sorbets aromatisées",
+        "ph": "-0.5",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Gouda vieux",
+        "ph": "20.26",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Gouda jeune",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3L ",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Goyave",
+        "ph": "-6.83",
+        "sa": "2"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Graines germées",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "35",
+        "nm": "Grenade",
+        "ph": "-4.79",
+        "sa": "0.07"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Griotte en conserve",
+        "ph": "?",
+        "sa": "0.3"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Groseille",
+        "ph": "-4.23",
+        "sa": "4"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Haricot Mungo Sec (soja vert)",
+        "ph": "-0.61",
+        "sa": "0.06"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Haricot Plat",
+        "ph": null,
+        "sa": "0.73"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "2",
+        "ig": "32",
+        "nm": "Haricot sec (rouge, blanc)",
+        "ph": "-2.55",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "30",
+        "nm": "Haricots verts",
+        "ph": "-4.15",
+        "sa": "0.1"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Heintz sauce tomate",
+        "ph": "?",
+        "sa": "2.28"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile Arachide",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile Carthame",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile Chanvre",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Très recommandé",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile de Coco",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile Colza",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Très recommandé",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile de Coprah",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile de Lin",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile de Noix",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile d’Olives",
+        "ph": "-0.03",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Recommandé",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile de Palme",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": "Inflammatoire à long terme",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Huile Tournesol",
+        "ph": "0",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Nectar d'abricot",
+        "ph": "?",
+        "sa": "0.14"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Nectar de pêche",
+        "ph": "-0.65",
+        "sa": "0.1"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "1",
+        "ig": "46",
+        "nm": "Jus d’ananas",
+        "ph": "-5.2",
+        "sa": "0.16"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "0",
+        "ig": "52",
+        "nm": "Jus d’orange",
+        "ph": "-3.66",
+        "sa": "0.18"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Jus de légumes",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Jus de Poire",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "0",
+        "ig": "44",
+        "nm": "Jus de pommes",
+        "ph": "-2.38",
+        "sa": "0.19"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "0",
+        "ig": "48",
+        "nm": "Jus Pamplemousse",
+        "ph": "-3.07",
+        "sa": "0.42"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Jus de raisin",
+        "ph": "?",
+        "sa": "0.18"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Jus de tomate",
+        "ph": "?",
+        "sa": "0.15"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Kéfir, Elben",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Kaki",
+        "ph": "-2.81",
+        "sa": "0.18"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "0",
+        "ig": "58",
+        "nm": "Kiwi",
+        "ph": "-5.62",
+        "sa": "0.32"
+    },
+    {
+        "am": "1",
+        "cm": "Fermentation enzymatique",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lait Avoine",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lait Chèvre, Brebis",
+        "ph": "2.8",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lait de Coco",
+        "ph": "-1.51",
+        "sa": "?"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lait Cru",
+        "ph": "-0.01",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": "Fermentation enzymatique",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lait Riz",
+        "ph": "-1.69",
+        "sa": "?"
+    },
+    {
+        "am": "2H",
+        "cm": "Déconseillé",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Lait sans lactose",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "32",
+        "nm": "Lait Soja",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Lait Vache UHT, Pasteurisé, Petit lait",
+        "ph": "0.2",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Laitue Iceberg",
+        "ph": "-2.35",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Laitues",
+        "ph": "-5",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Laurier feuille",
+        "ph": "-17.16",
+        "sa": "2.52"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "2",
+        "ig": "29",
+        "nm": "Lentilles verte, corail sèches",
+        "ph": "2.15",
+        "sa": "0"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Levure",
+        "ph": "?",
+        "sa": "0.75"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Lin (graines)",
+        "ph": "-3.18",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "50",
+        "nm": "Lychee Frais",
+        "ph": "-2.36",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "79",
+        "nm": "Lytchee Conserve",
+        "ph": "?",
+        "sa": "0.36"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Mâche",
+        "ph": "-7.53",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "85",
+        "nm": "Maïs (conserve)",
+        "ph": "-1.07",
+        "sa": "0.43"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Maïzena (farine de maïs)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3HAL",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Malt, extrait de malt",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Mandarine",
+        "ph": "-3.14",
+        "sa": "0.6"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "51",
+        "nm": "Mangue",
+        "ph": "-2.98",
+        "sa": "0.11"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Mascarpone",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0LH",
+        "cm": null,
+        "fd": "1",
+        "ig": "72",
+        "nm": "Melon",
+        "ph": "-5.07",
+        "sa": "1.5"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Menthe verte (fraîche)",
+        "ph": "-10.01",
+        "sa": "9.4"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Menthe Poivrée (tisane)",
+        "ph": "-12.65",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Acide benzoïque",
+        "fd": "?",
+        "ig": "60",
+        "nm": "Miel",
+        "ph": "-0.93",
+        "sa": "10"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "71",
+        "nm": "Millet (céréale)",
+        "ph": "2.93",
+        "sa": "0"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Moutarde",
+        "ph": "-0.01",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Moutarde (graines)",
+        "ph": "14.49",
+        "sa": "26"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Mozzarella",
+        "ph": "14.74",
+        "sa": "0.02"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "43",
+        "nm": "Muesli",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Mûre",
+        "ph": "-2.8",
+        "sa": "0.76"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Myrtille",
+        "ph": "-1.04",
+        "sa": "2.5"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Navet",
+        "ph": "-3.15",
+        "sa": "0.16"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Nectarine",
+        "ph": "?",
+        "sa": "0.49"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Nèfle",
+        "ph": "?",
+        "sa": "0.26"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "?",
+        "ig": "0",
+        "nm": "Noisette",
+        "ph": "-3.12",
+        "sa": "0.14"
+    },
+    {
+        "am": "4AL",
+        "cm": null,
+        "fd": "?",
+        "ig": "0",
+        "nm": "Noix",
+        "ph": "?",
+        "sa": "0.3"
+    },
+    {
+        "am": "2AL",
+        "cm": null,
+        "fd": "?",
+        "ig": "15",
+        "nm": "Noix de Cajou",
+        "ph": "6.42",
+        "sa": "0.07"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "35",
+        "nm": "Noix de coco sèche, coco râpée, eau de coco",
+        "ph": "-2.75",
+        "sa": "0.26"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "0",
+        "nm": "Noix de Macadamia",
+        "ph": "-1.38",
+        "sa": "0.52"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Noix de Muscade",
+        "ph": "-3.76",
+        "sa": "2.4"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Noix de Pécan",
+        "ph": "2.08",
+        "sa": "0.12"
+    },
+    {
+        "am": "0",
+        "cm": "Source de sélénium",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Noix du Brésil",
+        "ph": "8.15",
+        "sa": "0.46"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Oeuf de Caille",
+        "ph": "10.81",
+        "sa": "0"
+    },
+    {
+        "am": "3L",
+        "cm": "Action mastocytaire surtout cru, seul le blanc contient des libérateurs d'histamines",
+        "fd": "0",
+        "ig": "0",
+        "nm": "Oeuf entier",
+        "ph": "7.47",
+        "sa": "0"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Oignon",
+        "ph": "-2.1",
+        "sa": "0.16"
+    },
+    {
+        "am": "3AH",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Olive noire (conserve)",
+        "ph": "?",
+        "sa": "0.34"
+    },
+    {
+        "am": "3AH",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Olive verte (conserve)",
+        "ph": "-1.19",
+        "sa": "1.29"
+    },
+    {
+        "am": "4AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "42",
+        "nm": "Orange",
+        "ph": "-3.03",
+        "sa": "2.7"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "60",
+        "nm": "Orge (céréale)",
+        "ph": "0.44",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Origan",
+        "ph": "-49.77",
+        "sa": "66"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Ovomaltine",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": "Préférer les variétés anciennes, les variétés IAT (Inhibiteur de l’amylase-tryptase, non déclarés) sont souvent mal tolérés.",
+        "fd": "2",
+        "ig": "70",
+        "nm": "Pain au lait, Pain de mie",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": "Préférer les variétés anciennes, les variétés IAT (Inhibiteur de l’amylase-tryptase, non déclarés) sont souvent mal tolérés.",
+        "fd": "2",
+        "ig": "70",
+        "nm": "Pain blanc, Baguette",
+        "ph": "4.16",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": "Préférer les variétés anciennes, les variétés IAT (Inhibiteur de l’amylase-tryptase, non déclarés) sont souvent mal tolérés.",
+        "fd": "2",
+        "ig": "?",
+        "nm": "Pain au levain",
+        "ph": "4.15",
+        "sa": "?"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "25",
+        "nm": "Pamplemousse",
+        "ph": "-2.31",
+        "sa": "0.68"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "85",
+        "nm": "Panais",
+        "ph": "-5.74",
+        "sa": "0.45"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "0",
+        "ig": "59",
+        "nm": "Papaye",
+        "ph": "-5.49",
+        "sa": "0.08"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Paprika doux",
+        "ph": "-36.34",
+        "sa": "5.7"
+    },
+    {
+        "am": "3",
+        "cm": "Irritant",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Paprika fort",
+        "ph": "?",
+        "sa": "203"
+    },
+    {
+        "am": "2LH",
+        "cm": null,
+        "fd": "0",
+        "ig": "72",
+        "nm": "Pastèque",
+        "ph": "-1.9",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Patate douce",
+        "ph": "-3.79",
+        "sa": "0.48"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "61",
+        "nm": "Pâtes alimentaires blanches (blé)",
+        "ph": "3.05",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Pavot (graines)",
+        "ph": "-1.88",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "42",
+        "nm": "Pêche",
+        "ph": "-3.12",
+        "sa": "0.6"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Persil (frais)",
+        "ph": "-11.13",
+        "sa": "0.08"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "48",
+        "nm": "Petits-pois (surgelé)",
+        "ph": "-1.45",
+        "sa": "0.03"
+    },
+    {
+        "am": "3H",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Pickles",
+        "ph": "?",
+        "sa": "0.5"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Pignon de Pin",
+        "ph": "8.71",
+        "sa": "0.51"
+    },
+    {
+        "am": "3",
+        "cm": "Irritant",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Piment rouge",
+        "ph": "?",
+        "sa": "4"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Pistache",
+        "ph": "?",
+        "sa": "0.55"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "60",
+        "nm": "Pizza",
+        "ph": "6.5",
+        "sa": "?"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "38",
+        "nm": "Poires (pelées, en conserve, dans sirop)",
+        "ph": "-1.7",
+        "sa": "?"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "38",
+        "nm": "Poire Nashi",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "38",
+        "nm": "Poire Packham pelée",
+        "ph": "-2.2",
+        "sa": "0.2"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "38",
+        "nm": "Poire William’s",
+        "ph": "?",
+        "sa": "0.25"
+    },
+    {
+        "am": "1L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Poireau",
+        "ph": "-2.3",
+        "sa": "0.08"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Pois cassés jaunes ou verts",
+        "ph": "-0.97",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "2",
+        "ig": "32",
+        "nm": "Pois chiche",
+        "ph": "2.56",
+        "sa": "?"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Poissons et viandes (fumés)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Poisson (frais, congelé)",
+        "ph": "9",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Poisson (étal sur glace)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Poivre blanc",
+        "ph": "4.29",
+        "sa": "1.1"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Poivre noir",
+        "ph": "-25.4",
+        "sa": "6.2"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Poivre rouge",
+        "ph": "?",
+        "sa": "1.3"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Poivre vert (frais)",
+        "ph": "?",
+        "sa": "0.64"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Poivron jaune",
+        "ph": "-3.53",
+        "sa": "0.62"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "15",
+        "nm": "Poivron rouge",
+        "ph": "-2.75",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "15",
+        "nm": "Poivron vert",
+        "ph": "-2.85",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "70",
+        "nm": "Polenta",
+        "ph": "0.44",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Ph de -1.52 sans peau",
+        "fd": "2",
+        "ig": "38",
+        "nm": "Pomme",
+        "ph": "-2.2",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Ph de -1.52 sans peau",
+        "fd": "2",
+        "ig": "38",
+        "nm": "Pomme Golden Delicious",
+        "ph": "-2.2",
+        "sa": "0.08"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Pomme Golden Tamarillo",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": "Ph de -1.52 sans peau",
+        "fd": "2",
+        "ig": "38",
+        "nm": "Pomme Granny Smith",
+        "ph": "-2.2",
+        "sa": "0.6"
+    },
+    {
+        "am": "0",
+        "cm": "Ph de -1.52 sans peau",
+        "fd": "2",
+        "ig": "38",
+        "nm": "Pomme Red delicious",
+        "ph": "-2.2",
+        "sa": "0.19"
+    },
+    {
+        "am": "0",
+        "cm": "Les parties vertes sont toxiques",
+        "fd": "1",
+        "ig": "70",
+        "nm": "Pomme-de-terre Bio (avec peau)",
+        "ph": "-6.09",
+        "sa": "0.12"
+    },
+    {
+        "am": "0",
+        "cm": "Les parties vertes sont toxiques",
+        "fd": "1",
+        "ig": "70",
+        "nm": "Pomme-de-terre Bio (pelée)",
+        "ph": "-5.19",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Pop-corn",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Porc (sous atmosphère)",
+        "ph": "12.44",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": null,
+        "nm": "Porridge",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "75",
+        "nm": "Potiron, Potimarron",
+        "ph": "?",
+        "sa": "0.12"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Poulet, poule",
+        "ph": "12",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Pousse de Bambou (conserve)",
+        "ph": "-9.94",
+        "sa": "0"
+    },
+    {
+        "am": "1L",
+        "cm": "Préférer Prunes de Damas, Prunes bleues (D’Europe Centrale), Quetsches",
+        "fd": "2",
+        "ig": "39",
+        "nm": "Prune Rouge",
+        "ph": "-2.62",
+        "sa": "?"
+    },
+    {
+        "am": "1L",
+        "cm": "Préférer Prunes de Damas, Prunes bleues (D’Europe Centrale), Quetsches",
+        "fd": "2",
+        "ig": "39",
+        "nm": "Prune Verte",
+        "ph": "-2.62",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "52",
+        "nm": "Pruneau",
+        "ph": "-13.38",
+        "sa": "6.87"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Quatre-épices",
+        "ph": "?",
+        "sa": "30.8"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Quetsches",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Quinoa",
+        "ph": "-0.19",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Radis Petits rouges",
+        "ph": "-4.4",
+        "sa": "1.24"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Radis Blanc",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Radis-noir",
+        "ph": "?",
+        "sa": "0.18"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Raisin blanc",
+        "ph": "-4.54",
+        "sa": "0.94"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "65",
+        "nm": "Raisin sec",
+        "ph": "-14.29",
+        "sa": "7"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "45",
+        "nm": "Raisin Vert",
+        "ph": "-3.64",
+        "sa": "1.88"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Réglisse, cachou",
+        "ph": "?",
+        "sa": "8"
+    },
+    {
+        "am": "1",
+        "cm": "Acide oxalique",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Rhubarbe",
+        "ph": "-6.52",
+        "sa": "0.13"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Rhum",
+        "ph": "?",
+        "sa": "1.28"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Ricotta",
+        "ph": "6.18",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "60",
+        "nm": "Riz",
+        "ph": "1.5",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Riz au lait végétal",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Romarin (déshydraté)",
+        "ph": "-37.43",
+        "sa": "68"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Rooibos",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "15",
+        "nm": "Roquette",
+        "ph": "-7.86",
+        "sa": "?"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Roquefort",
+        "ph": "13.76",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "72",
+        "nm": "Rutabaga",
+        "ph": "-5.36",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Safran",
+        "ph": "-29.59",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sarrasin (céréale)",
+        "ph": "3.6",
+        "sa": "?"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Sauce soja",
+        "ph": "4.21",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Sauce tomate",
+        "ph": "-7.8",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "1",
+        "ig": "0",
+        "nm": "Saucisses, salami",
+        "ph": "7.7",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sauge (poudre)",
+        "ph": "-46.50",
+        "sa": "21.7"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Seigle (céréale)",
+        "ph": "11.95",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sel de Guérande",
+        "ph": "-0.51",
+        "sa": "0"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sel Iodé",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sésame (graines)",
+        "ph": "?",
+        "sa": "0.23"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sirop d’érable",
+        "ph": "-5.45",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sirop de sucre roux, Sirop d’agave",
+        "ph": "0",
+        "sa": "0.1"
+    },
+    {
+        "am": "3HA",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Steack Haché (sous atmosphère)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sucre blanc (non raffiné)",
+        "ph": "0",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Sucre blanc (raffiné)",
+        "ph": "0",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sucre complet",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Sucre Vanillé",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tabasco sauce",
+        "ph": "-1.67",
+        "sa": "0.45"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tandoori (épices)",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "4AL",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tangerine (orange)",
+        "ph": "?",
+        "sa": "0.56"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Breakfast Anglais",
+        "ph": "-0.82",
+        "sa": "3"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Cynorhodon",
+        "ph": "-0.82",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Darjeeling",
+        "ph": "-0.82",
+        "sa": "4.42"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Déthéïné",
+        "ph": "-0.82",
+        "sa": "0.37"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Earl Grey",
+        "ph": "-0.82",
+        "sa": "3"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Jasmin",
+        "ph": "-0.82",
+        "sa": "1.9"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Menthe, Menthe Poivrée",
+        "ph": "-0.82",
+        "sa": "1.1"
+    },
+    {
+        "am": "3HI",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Noir",
+        "ph": "-0.82",
+        "sa": "?"
+    },
+    {
+        "am": "2I",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thé Vert",
+        "ph": "-0.82",
+        "sa": "2.97"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Thon (frais)",
+        "ph": "18.14",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thym (déshydraté)",
+        "ph": "-35.48",
+        "sa": "183"
+    },
+    {
+        "am": "1L ",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Tisanes (plantes médicinales)",
+        "ph": "-0.24",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Tisanes Tilleul, verveine, camomille",
+        "ph": "-0.24",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tisane Menthe Poivrée",
+        "ph": "-0.24",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Tofu",
+        "ph": "1.74",
+        "sa": "?"
+    },
+    {
+        "am": "3HL",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Tomates",
+        "ph": "-3.71",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tournesol (graines, sèches)",
+        "ph": "12.07",
+        "sa": "0.12"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Truites",
+        "ph": "13.5",
+        "sa": "0"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vanille (gousse, poudre)",
+        "ph": "-3.31",
+        "sa": "1.44"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (sous atmosphère, gras)",
+        "ph": "4.96",
+        "sa": "0"
+    },
+    {
+        "am": "4HALI",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Vermouth",
+        "ph": "?",
+        "sa": "0.46"
+    },
+    {
+        "am": "3HA",
+        "cm": "Ph de 4 à 19",
+        "fd": "0",
+        "ig": "0",
+        "nm": "Viande (sous atmosphère)",
+        "ph": "?",
+        "sa": "0"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vin Blanc sec",
+        "ph": "-1.49",
+        "sa": "0.1"
+    },
+    {
+        "am": "4HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vin blanc mousseux",
+        "ph": "-1.02",
+        "sa": "?"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Vin Bordeaux",
+        "ph": "?",
+        "sa": "0.63"
+    },
+    {
+        "am": "3HALI",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Vin Riesling",
+        "ph": "-1.49",
+        "sa": "0.84"
+    },
+    {
+        "am": "3HALI",
+        "cm": "Contient des sulfites et additifs",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vin Rosé",
+        "ph": "-1.79",
+        "sa": "0.37"
+    },
+    {
+        "am": "4HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vin rouge",
+        "ph": "-2.18",
+        "sa": "?"
+    },
+    {
+        "am": "4HALI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vin Cabernet-Sauvignon",
+        "ph": "-2.18",
+        "sa": "0.86"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vinaigre Balsamique",
+        "ph": "-2.42",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vinaigre Blanc",
+        "ph": "-2.42",
+        "sa": "1.33"
+    },
+    {
+        "am": "2H",
+        "cm": "Additifs",
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vinaigre de Cidre",
+        "ph": "-2.42",
+        "sa": "?"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vinaigre de Malt",
+        "ph": "-2.42",
+        "sa": "0"
+    },
+    {
+        "am": "4H",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Vinaigre de Vin Blanc, Rouge",
+        "ph": "-2.42",
+        "sa": "?"
+    },
+    {
+        "am": "3LI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Vodka",
+        "ph": "0.16",
+        "sa": "0"
+    },
+    {
+        "am": "3LI",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Whisky Scotch",
+        "ph": "0.11",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Worcestershire sauce",
+        "ph": "?",
+        "sa": "64.3"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "36",
+        "nm": "Yaourt (nature)",
+        "ph": "0.17",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "2",
+        "ig": "33",
+        "nm": "Yaourt (aromatisé)",
+        "ph": "0.44",
+        "sa": "?"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Zeste de citron",
+        "ph": "-4.31",
+        "sa": "?"
+    },
+    {
+        "am": "4L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Zeste d’orange",
+        "ph": "-5.61",
+        "sa": "?"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Basilic Poudre",
+        "ph": "-85.36",
+        "sa": "3.4"
+    },
+    {
+        "am": "3",
+        "cm": null,
+        "fd": "0",
+        "ig": "14",
+        "nm": "Beurre de cacahuète",
+        "ph": "5.75",
+        "sa": "0.23"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Caramel industriel E150b",
+        "ph": "?",
+        "sa": "0.12"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Clou de girofle (poudre)",
+        "ph": "-31.59",
+        "sa": "5.74"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Boeuf (frais)",
+        "ph": "13.04",
+        "sa": "0"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Dinde (fraîche)",
+        "ph": "9.9",
+        "sa": "0"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Poulet, poule (frais)",
+        "ph": "12",
+        "sa": "0"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Steack Haché (sous atmosphère, frais)",
+        "ph": "?",
+        "sa": "?"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (frais, gras)",
+        "ph": "4.96",
+        "sa": "0"
+    },
+    {
+        "am": "3AL",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chocolat blanc",
+        "ph": "-6.12",
+        "sa": "?"
+    },
+    {
+        "am": "2A",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Champignons de Paris (conserve)",
+        "ph": "0.12",
+        "sa": "?"
+    },
+    {
+        "am": "2L",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Chou Frisé (cru)",
+        "ph": "-4.23",
+        "sa": "?"
+    },
+    {
+        "am": "2",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Ciboulette (lyophilisé)",
+        "ph": "-59.81",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Echalote (lyophilisé)",
+        "ph": "-22.75",
+        "sa": "0.03"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Gingembre (poudre)",
+        "ph": "-24.55",
+        "sa": "4.5"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "85",
+        "nm": "Maïs (pétales)",
+        "ph": "3",
+        "sa": "0.43"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "85",
+        "nm": "Maïs (semoule)",
+        "ph": "3.49",
+        "sa": "0.43"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Menthe verte (déshydratée)",
+        "ph": "-55.42",
+        "sa": "9.4"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Persil (déshydratée)",
+        "ph": "-81.49",
+        "sa": "0.08"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "48",
+        "nm": "Petits-pois (frais)",
+        "ph": "-0.1",
+        "sa": "0.03"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Raisin noir",
+        "ph": "-6.09",
+        "sa": "0.94"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Romarin (frais)",
+        "ph": "-16.45",
+        "sa": "68"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Sauces béchamel",
+        "ph": "-2.22",
+        "sa": "?"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "1",
+        "ig": "?",
+        "nm": "Sauces tartare",
+        "ph": "1.98",
+        "sa": "?"
+    },
+    {
+        "am": "4HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Thon (conserve)",
+        "ph": "12.71",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Thym (frais)",
+        "ph": "-15.57",
+        "sa": "183"
+    },
+    {
+        "am": "3L",
+        "cm": null,
+        "fd": "?",
+        "ig": "?",
+        "nm": "Tournesol (graines, grillées)",
+        "ph": "36.87",
+        "sa": "0.12"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (frais, haché)",
+        "ph": "12.05",
+        "sa": "0"
+    },
+    {
+        "am": "0H",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (frais, maigre)",
+        "ph": "16.74",
+        "sa": "0"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (sous atmosphère, haché)",
+        "ph": "12.05",
+        "sa": "0"
+    },
+    {
+        "am": "2HA",
+        "cm": null,
+        "fd": "0",
+        "ig": "0",
+        "nm": "Veau (sous atmosphère, maigre)",
+        "ph": "16.74",
+        "sa": "0"
+    },
+    {
+        "am": "?",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Anis vert (déshydraté)",
+        "ph": "-74.51",
+        "sa": "22.8"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "?",
+        "nm": "Couscous (cuit)",
+        "ph": "1.14",
+        "sa": "?"
+    },
+    {
+        "am": "1",
+        "cm": null,
+        "fd": "2",
+        "ig": "48",
+        "nm": "Petits-pois (conserve)",
+        "ph": "0.75",
+        "sa": "0.03"
+    },
+    {
+        "am": "3",
+        "cm": "Irritant",
+        "fd": "?",
+        "ig": "?",
+        "nm": "Piment rouge (poudre)",
+        "ph": "-26.86",
+        "sa": "4"
+    },
+    {
+        "am": "0",
+        "cm": null,
+        "fd": "0",
+        "ig": "?",
+        "nm": "Romarin (sec)",
+        "ph": "0.14",
+        "sa": "68"
+    }
+]
