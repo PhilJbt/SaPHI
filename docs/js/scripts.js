@@ -204,19 +204,43 @@ function load_Food() {
 /*           OPEN MODAL           */
 function openModal(_id) {
     switch(_id) {
-        // Fish
+        // Meat
         case 0:
+            document.getElementById('mdl_title').innerHTML = 'Viandes';
+            document.getElementById('mdl_content').innerHTML = `
+            <h5>Porc et lactose</h5>
+            Afin de rendre leurs <b>tranches de porc</b> plus tendres, certains industriels intègrent <b>du lait</b> dans le processus de préparation.<br/>`;
+            break;
+        // Fish
+        case 1:
             document.getElementById('mdl_title').innerHTML = 'Poissons';
             document.getElementById('mdl_content').innerHTML = `
+            <h5>Saumon</h5>
             Le <b>saumon sauvage</b> provient seulement du Pacifique.<br/>
             Le <b>saumon de l'Atlantique</b>, que l'on retrouve au supermarché, provient uniquement d'élevages en bassins.<br/>
-            Les <b>saumons de Norvège</b>, sauvages ou d'élevages, sont de qualité équivalente, leurs bassins d'élevage étant placés directement dans la mer.
-            `;
+            Les <b>saumons de Norvège</b>, sauvages ou d'élevages, sont de qualité équivalente, leurs bassins d'élevage étant placés directement dans la mer.<br/>
+            <br/>
+            <h5>Poisson fumé</h5>
+            Certains industriels utilisent l'appellation &laquo; fumé &raquo; pour leur poissons, même s'ils se contentent d'utiliser <b>des colorants et des arômes</b>.<br/>`;
+            break;
+        // Fruits
+        case 2:
+            document.getElementById('mdl_title').innerHTML = 'Fruits';
+            document.getElementById('mdl_content').innerHTML = `
+            <h5>Poires et gaz</h5>
+            Hors saison, <b>les poires</b> dites &laquo; de garde &raquo; (des variétés se conservant plus longtemps) sont généralement <b>conservées dans du gaz</b>.<br/>`;
+            break;
+        // Produits laitiers
+        case 3:
+            document.getElementById('mdl_title').innerHTML = 'Produits laitiers';
+            document.getElementById('mdl_content').innerHTML = `
+            <h5>Fromage sans lactose</h5>
+            Il est possible de connaitre le <b>taux de lactose d'un fromage</b>. Si l'étiquette informant de sa composition comporte &laquo; <i>Glucide : 0, dont Sucre : 0</i> &raquo;, cela signifie qu'<b>il est sans lactose</b>, ce dernier étant le &laquo; sucre du lait &raquo;.<br/>`;
             break;
     }
 
-    var elem_modal = document.querySelectorAll('.modal')[0];
-    var inst_modal = M.Modal.getInstance(elem_modal);
+    let elem_modal = document.querySelectorAll('.modal')[0];
+    let inst_modal = M.Modal.getInstance(elem_modal);
     inst_modal.open();
 }
 
@@ -258,28 +282,55 @@ document.addEventListener('DOMContentLoaded', function() {
         onAutocomplete: load_Food
     }
 
-    var elem_autocomp = document.querySelectorAll('.autocomplete');
-    var inst_autocomp = M.Autocomplete.init(elem_autocomp, options);
+    let elem_autocomp = document.querySelectorAll('.autocomplete');
+    M.Autocomplete.init(elem_autocomp, options);
 
     // Initialize the collapsibles
-    var elem_collaps = document.querySelectorAll('.collapsible');
-    var inst_collaps = M.Collapsible.init(elem_collaps, {});
+    let elem_collaps = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(elem_collaps, {});
 
     // Initialize the floating menu button
-    var elem_menu = document.querySelectorAll('.fixed-action-btn');
-    var inst_menu = M.FloatingActionButton.init(elem_menu, {
+    let elem_menu = document.querySelectorAll('.fixed-action-btn');
+    M.FloatingActionButton.init(elem_menu, {
         direction:'bottom',
         hoverEnabled:false,
         toolbarEnabled:false
     });
 
     // Initialize the modal window
-    var elem_modal = document.querySelectorAll('.modal');
-    var inst_modal = M.Modal.init(elem_modal, {});
+    let elem_modal = document.querySelectorAll('.modal');
+    M.Modal.init(elem_modal, {});
 
     // Initialize the tooltips
-    var elem_tooltips = document.querySelectorAll('.tooltipped');
-    var inst_tooltips = M.Tooltip.init(elem_tooltips, {});
+    let elem_tooltips = document.querySelectorAll('.tooltipped');
+    M.Tooltip.init(elem_tooltips, {});
+
+    // Initialize the discovery feature
+    let elem_disco = document.querySelectorAll('.tap-target');
+    M.TapTarget.init(elem_disco, {});
+
+    // If the user has never used the menu
+    if (localStorage.getItem('menu_opened') !== 'true') {
+        // Store that the user has opened the menu
+        let menu_bouton = document.getElementById('menu');
+        menu_bouton.addEventListener("click", function() {
+            localStorage.setItem('menu_opened', 'true');
+        });
+        
+        // Show the discovery in 3 seconds
+        setTimeout(() => {
+            let elem_disco = document.querySelectorAll('.tap-target');
+            let instance_discovery = M.TapTarget.getInstance(elem_disco[0]);
+            instance_discovery.open();
+           
+            // Close the discovery after 5 seconds
+            setTimeout(() => {
+                let elem_disco = document.querySelectorAll('.tap-target');
+                let instance_discovery = M.TapTarget.getInstance(elem_disco[0]);
+                instance_discovery.close();
+            }, 5000);
+        }, 3000);
+    }
 
     // Enable the text input
     let inp = document.getElementById('inp_nomali');
@@ -288,5 +339,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /* CONTACT */
 function contact() {
-    window.location.href = "mailto:philjbt@ik.me";
+    window.location.href = atob("bWFpbHRvOnBoaWxqYnRAaWsubWU=");
 }

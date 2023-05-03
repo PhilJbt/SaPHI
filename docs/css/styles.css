@@ -21,6 +21,14 @@ main {
 	float: none !important;
 }
 
+.menu_svg {
+	scale: 0.5;
+}
+
+.tap-target-content {
+	color: #fff !important;
+}
+
 .footer_btn {
 	height:24px;
 	width:24px;
