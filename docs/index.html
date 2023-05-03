@@ -17,7 +17,7 @@
           <i class="large material-icons">info</i>
         </a>
         <ul>
-          <li onclick="openModal(0)"><a class="btn-floating blue"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 576 512"><path d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg></a></li>
+          <li onclick="openModal(0)"><a class="btn-floating blue"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 576 512"><!-- From Awesomefont --><path d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg></a></li>
         </ul>
       </div>
       <!-- Modal -->
@@ -45,8 +45,8 @@
       </div>
       <!-- Salicylates -->
       <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <div class="col s12 m4">
+          <div id="card_sa" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Salicylates</span>
               <div id="sa">
@@ -68,11 +68,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- Amines -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <!-- Amines -->
+        <div class="col s12 m4">
+          <div id="card_am" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Amines</span>
               <div id="am">
@@ -92,11 +90,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- Ph -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <!-- Ph -->
+        <div class="col s12 m4">
+          <div id="card_ph" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Ph</span>
               <div id="ph">
@@ -118,11 +114,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- IG -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <!-- IG -->
+        <div class="col s12 m4">
+          <div id="card_ig" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Index glycémique</span>
               <div id="ig">
@@ -142,42 +136,54 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- Pre/probiotique -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <!-- Pre/probiotique -->
+        <div class="col s12 m4">
+          <div id="card_bi" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Pré/Probiotique</span>
               <div id="bi">
                 <div class="chip">...</div>
               </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip">Les <b>probiotiques</b> sont les bonnes bactéries de l'intestin.</div>
+                    <div class="chip">Les <b>prébiotiques</b> sont la nourriture des <i>probiotiques</i>, ou plutôt leurs &laquo; friandises &raquo; : elles n'en ont pas besoin pour vivre, mais cela favorise leur croissance.</div>
+                  </span></div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Fodmaps -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
+        <!-- Fodmaps -->
+        <div class="col s12 m4">
+          <div id="card_fd" class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">Fodmap</span>
               <div id="fd">
                 <div class="chip">...</div>
               </div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                  <div class="collapsible-body blue-grey darken-2"><span>
+                    <div class="chip"><b>F</b>ermentiscibles (<i>Fructanes et Galactanes</i>)<br/><b>O</b>ligosaccharides (<i>Fructanes et Galacto-olisaccharides</i>)<br/><b>D</b>isaccharides (<i>Lactose</i>)<br/><b>M</b>onosaccharides (<i>Fructose en excès du glucose</i>)<br/><b>A</b>nd<br/><b>P</b>olyols (<i>Sorbitol, mannitol, xylitol et maltitol</i>).</div>
+                    <div class="chip">Les FODMAP sont des glucides présents dans certains aliments et qui sont lentement (voire pas) absorbés par l'intestin</div>
+                  </span></div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
       <!-- Comments -->
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Commentaires</span>
-              <div id="cm">
-                <div class="chip">...</div>
-              </div>
+      <div class="col s12 m12">
+        <div id="card_cm" class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Commentaires</span>
+            <div id="cm">
+              <div class="chip">...</div>
             </div>
           </div>
         </div>

@@ -29,7 +29,12 @@ blockquote {
 	border: none;
 }
 
-.collapsible-header, .fixed-action-btn {
+.card {
+	opacity: .25;
+	transition: opacity .25s;
+}
+
+.collapsible-header, .fixed-action-btn, .prefix, label {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -52,6 +57,7 @@ blockquote {
 
 .chip {
 	font-weight: 600 !important;
+	height: unset;
 }
 
 .chipsa {

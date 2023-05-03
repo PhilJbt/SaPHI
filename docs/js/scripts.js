@@ -1,28 +1,40 @@
+/*       SET THE CARD OPACITY     */
+function setCardOpacity(_id, _show) {
+    document.getElementById(_id).style.opacity = (_show === true ? 1.0 : .25);
+}
+
 /*           SALYCILATES          */
 function load_Salicylates(_val) {
     let str = '<div class="chip chipsa ';
 
-    if (_val === '?')
+    if (_val === '?') {
         str += '">Inconnu';
+
+        setCardOpacity('card_sa', false);
+    }
     else {
         let val = Number(_val);
 
         if (val <= 0.06)
-        str += 'green darken-4';
+            str += 'green darken-4';
         else if (val <= 0.10)
-        str += 'yellow darken-4';
+            str += 'yellow darken-4';
         else if (val <= 0.60)
-        str += 'orange darken-4';
+            str += 'orange darken-4';
         else if (val <= 1.0)
-        str += 'red darken-4';
+            str += 'red darken-4';
         else if (val <= 20.0)
-        str += 'purple darken-4';
+            str += 'purple darken-4';
         else
-        str += 'grey darken-4';
+            str += 'grey darken-4';
 
         str += `"> ${_val}`;
+
+        setCardOpacity('card_sa', true);
     }
+
     str += '</div>';
+
     return str;
 }
 
@@ -47,6 +59,11 @@ function load_Amines(_flags) {
     for (const char of strFlags)
         str += load_Amines_(char);
 
+    if (_flags === '?')
+        setCardOpacity('card_am', false);
+    else
+        setCardOpacity('card_am', true);
+
     return str;
 }
 
@@ -54,8 +71,11 @@ function load_Amines(_flags) {
 function load_Ph(_val) {
     let str = '<div class="chip chipph ';
 
-    if (_val === '?')
+    if (_val === '?') {
         str += '">Inconnu';
+
+        setCardOpacity('card_ph', false);
+    }
     else {
         let val = Number(_val);
 
@@ -65,6 +85,8 @@ function load_Ph(_val) {
         str += 'yellow accent-2';
 
         str += `"> ${_val}`;
+
+        setCardOpacity('card_ph', true);
     }
     str += '</div>';
     return str;
@@ -74,8 +96,11 @@ function load_Ph(_val) {
 function load_IG(_val) {
     let str = '<div class="chip chipig ';
 
-    if (_val === '?')
+    if (_val === '?') {
         str += '">Inconnu';
+
+        setCardOpacity('card_ig', false);
+    }
     else {
         let val = Number(_val);
 
@@ -87,6 +112,8 @@ function load_IG(_val) {
         str += 'red';
 
         str += `"> ${_val}`;
+
+        setCardOpacity('card_ig', true);
     }
     str += '</div>';
     return str;
@@ -94,13 +121,20 @@ function load_IG(_val) {
 
 /*         PRE/PROBIOTIQUE        */
 function load_Biotique(_val) {
-    let str = '<div class="chip chipfd ';
+    let str = '<div class="chip chipbi ';
     switch(_val) {
         case '1': str += 'blue">Prébiotique'; break;
         case '2': str += 'blue">Probiotique'; break;
         default: str += 'grey lighten-1">Non'; break;
     }
+
     str += `</div>`;
+
+    if (_val === '?')
+        setCardOpacity('card_bi', false);
+    else
+        setCardOpacity('card_bi', true);
+
     return str;
 }
 
@@ -113,8 +147,27 @@ function load_Fodmap(_val) {
         case '2': str += 'red lighten-1">FODMAP'; break;
         default: str += '">Inconnu'; break;
     }
-    str += `</div>`;
+
+    str += `</div>`; 
+
+    if (_val === '?')
+        setCardOpacity('card_fd', false);
+    else
+        setCardOpacity('card_fd', true);
+
     return str;
+}
+
+/*          LOAD COMMENTS         */
+function load_Comments(_com) {
+    if (_com === null) {
+        setCardOpacity('card_cm', false);
+        return 'Néant.';
+    }
+    else {
+        setCardOpacity('card_cm', true);
+        return _com;
+    }
 }
 
 /*         LOAD FOOD INFOS        */
@@ -145,7 +198,7 @@ function load_Food() {
     document.getElementById('ig').innerHTML = load_IG(elem['ig']);
     document.getElementById('bi').innerHTML = load_Biotique(elem['bi']);
     document.getElementById('fd').innerHTML = load_Fodmap(elem['fd']);
-    document.getElementById('cm').innerHTML = elem['cm'] || 'Néant.';
+    document.getElementById('cm').innerHTML = load_Comments(elem['cm']);
 }
 
 /*           OPEN MODAL           */
