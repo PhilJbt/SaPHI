@@ -497,15 +497,6 @@
     {
         "am": "0",
         "cm": null,
-        "fd": "2",
-        "ig": "?",
-        "nm": "Caramel industriel E150",
-        "ph": "?",
-        "sa": "0.12"
-    },
-    {
-        "am": "0",
-        "cm": null,
         "fd": "0",
         "ig": "?",
         "nm": "Cardamome",
@@ -3556,10 +3547,10 @@
     },
     {
         "am": "1",
-        "cm": null,
+        "cm": "Emploi de sulfites",
         "fd": "2",
         "ig": "?",
-        "nm": "Caramel industriel E150b",
+        "nm": "Caramel de sulfite caustique, E150b",
         "ph": "?",
         "sa": "0.12"
     },
@@ -3862,7 +3853,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Ribonucléotide Na, Sodium 5 ribonucléotide, 5-ribonucléotide disodique, Ribonucléotides disodiques, ribonucléotide de sodium, E635",
@@ -3871,7 +3862,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acésulfate de potassium, Acésulfame potassium, Acésulfame-K, Ace K",
@@ -3880,7 +3871,7 @@
     },
     {
         "am": "3L",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acide benzoïque, Benzoates, E210",
@@ -3889,7 +3880,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Cyclamates, Acide cyclamique, E952",
@@ -3898,7 +3889,7 @@
     },
     {
         "am": "3L",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acide glutamique, E620",
@@ -3907,7 +3898,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acide phosphorique, Acide orthophosphorique, E338",
@@ -3916,7 +3907,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acide propionique, Propionate, E280",
@@ -3925,7 +3916,7 @@
     },
     {
         "am": "3L",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Acide sorbique, E200",
@@ -3934,7 +3925,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Amarante, C.I. Food Red 9, Azorubin S, Amaranth, Acid Red 27, FD&C Red No. 2, Amaranthe, E123",
@@ -3943,7 +3934,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Dioxyde de soufre, Anhydride sulfureux, E220",
@@ -3952,7 +3943,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Aspartame, E951",
@@ -3961,7 +3952,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Carmoisine, Food Red 3, Brillantcarmoisin O, Azorubine, Cramoisine, Azorubin S, Acid Red 14, E122",
@@ -3970,7 +3961,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Benzoate de calcium, E213",
@@ -3979,7 +3970,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Benzoate de potassium, E212",
@@ -3988,7 +3979,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Benzoate de sodium, E211",
@@ -3997,7 +3988,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Bisulfite de sodium, Sulfite acide de Sodium, E222",
@@ -4006,7 +3997,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Roccou, Norbixine, Bixine Extraits d'annato, Bixine de rocou, E160b",
@@ -4015,7 +4006,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Bleu brillant FCF, Xylene Blue VSG, Patent Blue AR, Food Blue 2, Eriosky blue, Erioglaucine, D&C Blue No. 4, C.I. 42090, Blue No.1, Atracid Blue FG, Alzen Food Blue No. 1, Alphazurine, Acid Blue 9, E133",
@@ -4024,7 +4015,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. E131 interdit Australie. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Bleu patenté V, Food Blue 5, Sulphan Blue, E131",
@@ -4033,7 +4024,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Brun chocolat HT, Chocolate Brown HT, C.I. 20285, Brun HT, Brown HT, Food Brown 3, E155",
@@ -4042,7 +4033,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "BHQT, Butylhydro - quinone tertiaire, Butylhydroquinone tertiaire, E319",
@@ -4051,7 +4042,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Salpêtre du Chili, Salpêtre cubique, Nitrate de sodium, E251",
@@ -4060,7 +4051,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "BHA, Buthylhydroxyanisol, Hydroxyanisol butyle, E320",
@@ -4069,7 +4060,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Nitrite de potassium, E249",
@@ -4078,7 +4069,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "BHT, Butylhydroxytoluène, Hydroxytoluène butyle, Butylhydroxytolol, E321",
@@ -4087,7 +4078,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Nitrite de sodium, Azotite, E250",
@@ -4095,17 +4086,17 @@
         "sa": "?"
     },
     {
-        "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
-        "fd": "?",
+        "am": "0",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
+        "fd": "2",
         "ig": "?",
         "nm": "Caramel ammoniacal, Caramel, Caramel I - simple, E150",
         "ph": "?",
-        "sa": "?"
+        "sa": "0.12"
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Noir brillant BN, Naphthol Black, Food Black 1, C.I. Food Brown 1, C.I. 28440, Brilliant Black PN, Brilliant Black BN, Brilliant Black A, Black PN, Noir brilliant, Noir PN, E151",
@@ -4114,7 +4105,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Diglutamate de calcium, Glutamate de calcium, Diglutamate monocalcique, E623",
@@ -4123,7 +4114,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Diglutamate de magnésium, Glutamate de magnésium, Diglutamate monomagnésique, E625",
@@ -4132,7 +4123,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Orthophosphate de calcium, Orthophosphate tricalcique, Orthophosphate monocalcique, Orthophosphate dicalcique, Phosphates de calcium, E341",
@@ -4141,7 +4132,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Diphosphates, Pyrophosphates, Sels métalliques de diphosphates, E450",
@@ -4150,7 +4141,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Orthophosphate de potassium, Orthophosphate tripotassique, Orthophosphate monopotassique, Orthophosphate dipotassique, Phosphates de potassium, E340",
@@ -4159,7 +4150,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sulfite de potassium, Potassium sulfite, Disulfite de calcium-potassium, E225",
@@ -4168,7 +4159,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Disulfite de sodium, Métabisulfite de sodium, E223",
@@ -4177,7 +4168,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Orthophosphate de sodium, Orthophosphate trisodique, Orthophosphate monosodique, Orthophosphate disodique, Phosphates de sodium, Phosphate trisodique, E339",
@@ -4186,7 +4177,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Polyphosphates, E452",
@@ -4195,7 +4186,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Disulfite de potassium, Métabisulfite de potassium, E224",
@@ -4204,7 +4195,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Propionate de calcium, E282",
@@ -4213,7 +4204,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Erythrosine, E127",
@@ -4222,7 +4213,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Propionate de potassium, E283",
@@ -4231,7 +4222,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Gallate d'octyle, E311",
@@ -4240,7 +4231,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Propionate de sodium, E281",
@@ -4249,7 +4240,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Gallate de dodécyle, E312",
@@ -4258,7 +4249,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Gallate de propyle, E310",
@@ -4267,7 +4258,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Rouge allura AC, E129",
@@ -4276,7 +4267,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Glutamate d'ammonium, Glutamate monoammonique, Glutamate monoammonié, E624",
@@ -4285,7 +4276,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Ponceau 4R, Rouge cochenille A, New Coccine, Food Red 7, Cochineal Red A, Coccine Nouvelle, C.I. 16255, Acid Red 18, SX purple, Cochenille rouge A, E124",
@@ -4294,7 +4285,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Glutamate de potassium, Glutamate monopotassique, E622",
@@ -4303,7 +4294,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Saccharine, Saccharine de potassium, Saccharine de calcium, Saccharine de Sodium, Saccharines, E954",
@@ -4312,7 +4303,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sorbate de calcium, E203",
@@ -4321,7 +4312,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "MSG, Glutamate monosodique, Glutamate de sodium, Glutamate monosodique, E621",
@@ -4330,7 +4321,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sorbate de potassium, Potassium sorbate, E202",
@@ -4339,7 +4330,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sorbate de sodium, E201",
@@ -4348,7 +4339,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Guanylate de Sodium, Guanylate disodique, E627",
@@ -4357,7 +4348,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sucralose, E955",
@@ -4366,7 +4357,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Indigotine, Carmine d'indigo, Carmin d'indigo, E132",
@@ -4375,7 +4366,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sulfite de sodium, E221",
@@ -4384,7 +4375,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Inosinate disodique, Inosinate de sodium, E631",
@@ -4393,7 +4384,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sulfite de calcium, E226",
@@ -4402,7 +4393,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Isomalt, Isomaltulose hydrogéné, Isomaltitol, Palatinose hydrogéné, E953",
@@ -4411,7 +4402,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sulfite acide de calcium, Bisulfite de calcium, E227",
@@ -4420,7 +4411,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Jaune 2G, Yellow 2G, E107",
@@ -4429,7 +4420,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Sulfite acide de potassium, Bisulfite de potassium, Potassium bisulfite, E228",
@@ -4438,7 +4429,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Jaune de quinoléine, Yellow T, Resorcinol Yellow, Quinoline Yellow, Gold Yellow, Chrysoine, Jaune de quinoline, E104",
@@ -4447,7 +4438,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Tartrazine, Acid Yellow 23, Jaune 5, E102",
@@ -4456,7 +4447,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Jaune orangé S, Sunset yellow FCF, Jaune soleil FCF, E110",
@@ -4465,7 +4456,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "BHQT, Butylhydro - quinone tertiaire, Butylhydroquinone tertiaire, E319",
@@ -4474,7 +4465,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Nitrate de potassium, E252",
@@ -4483,7 +4474,7 @@
     },
     {
         "am": "?",
-        "cm": "Interdit alimentaire FR, mais pas tous CEE. E128 interdit Europe. E120 réputé dangereux. E131 interdit Australie. (Phase 3)",
+        "cm": "Interdit alimentaire FR, mais pas tous CEE. (Phase 3)",
         "fd": "?",
         "ig": "?",
         "nm": "Triphosphates, E451",
@@ -4537,7 +4528,7 @@
     },
     {
         "am": "?",
-        "cm": "(Phase 1)",
+        "cm": "E120 réputé dangereux. (Phase 1)",
         "fd": "?",
         "ig": "?",
         "nm": "Crimson Lake, Cochineal, Carmins, Acide carminique, Natural Red 4, Rouge cochenille, E120",
@@ -4546,7 +4537,7 @@
     },
     {
         "am": "?",
-        "cm": "(Phase 1)",
+        "cm": "E128 interdit Europe. (Phase 1)",
         "fd": "?",
         "ig": "?",
         "nm": "Red 2G, Food Red 10, C.I. 18050, Azophloxine, Azogéranine, Azofloxin, Amidonaphthol red G, Acid Red 1, E128",
