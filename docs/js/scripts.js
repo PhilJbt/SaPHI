@@ -157,7 +157,7 @@ function openModal(_id) {
             document.getElementById('mdl_content').innerHTML = `
             Le <b>saumon sauvage</b> provient seulement du Pacifique.<br/>
             Le <b>saumon de l'Atlantique</b>, que l'on retrouve au supermarché, provient uniquement d'élevages en bassins.<br/>
-            Le <b>saumon de Norvège</b>, sauvages ou d'élevages, sont de qualité équivalente, leurs bassins d'élevage étant placés directement dans la mer.
+            Les <b>saumons de Norvège</b>, sauvages ou d'élevages, sont de qualité équivalente, leurs bassins d'élevage étant placés directement dans la mer.
             `;
             break;
     }
