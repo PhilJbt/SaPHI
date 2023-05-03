@@ -15,6 +15,11 @@ blockquote {
 	margin-bottom: 0px !important;
 }
 
+.fixed-action-btn {
+	top: 23px !important;
+	bottom: unset;
+}
+
 .collapsible {
 	margin-bottom: 0px !important;
 	border: none;
@@ -24,7 +29,7 @@ blockquote {
 	border: none;
 }
 
-.collapsible-header {
+.collapsible-header, .fixed-action-btn {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;

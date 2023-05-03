@@ -148,6 +148,25 @@ function load_Food() {
     document.getElementById('cm').innerHTML = elem['cm'] || 'Néant.';
 }
 
+/*           OPEN MODAL           */
+function openModal(_id) {
+    switch(_id) {
+        // Fish
+        case 0:
+            document.getElementById('mdl_title').innerHTML = 'Poissons';
+            document.getElementById('mdl_content').innerHTML = `
+            Le <b>saumon sauvage</b> provient seulement du Pacifique.<br/>
+            Le <b>saumon de l'Atlantique</b>, que l'on retrouve au supermarché, provient uniquement d'élevages en bassins.<br/>
+            Le <b>saumon de Norvège</b>, sauvages ou d'élevages, sont de qualité équivalente, leurs bassins d'élevage étant placés directement dans la mer.
+            `;
+            break;
+    }
+
+    var elem_modal = document.querySelectorAll('.modal')[0];
+    var inst_modal = M.Modal.getInstance(elem_modal);
+    inst_modal.open();
+}
+
 /*     PROCESS DISTANT DATA       */
 function parseJson(_objData, _data) {
     window['aliments'] = _data;
@@ -191,4 +210,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let inp = document.getElementById('inp_nomali');
     inp.disabled = false;
+
+    var elem_menu = document.querySelectorAll('.fixed-action-btn');
+    var inst_menu = M.FloatingActionButton.init(elem_menu, {
+        direction:'bottom',
+        hoverEnabled:false,
+        toolbarEnabled:false
+    });
+
+    var elem_modal = document.querySelectorAll('.modal');
+    var inst_modal = M.Modal.init(elem_modal, {
+        
+    });
 });
