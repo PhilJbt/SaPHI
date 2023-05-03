@@ -5,10 +5,31 @@
 	src: url(../fonts/materialicons.woff2) format('woff2');
 }
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
 .badge {
 	color: #000 !important;
 	margin: 5px;
 	float: none !important;
+}
+
+.footer_btn {
+	height:24px;
+	width:24px;
+	fill:#aaa;
+	transition:fill .25s;
+	margin: 0px 10px 0px 10px;
+}
+.footer_btn:hover {
+	fill:#fff;
 }
 
 blockquote {

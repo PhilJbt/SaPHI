@@ -244,10 +244,13 @@ function retrieveJson(_objData) {
 /*           INITIALIZE           */
 var objData = { dict: {} };
 document.addEventListener('DOMContentLoaded', function() {
+    // Remove any entered text
     document.getElementById('inp_nomali').value = '';
 
+    // Retrieve the distant food list file
     retrieveJson(objData);
 
+    // Initialize the autocomplete input
     let options = {
         data: objData.dict,
         limit: 10,
@@ -258,12 +261,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var elem_autocomp = document.querySelectorAll('.autocomplete');
     var inst_autocomp = M.Autocomplete.init(elem_autocomp, options);
 
+    // Initialize the collapsibles
     var elem_collaps = document.querySelectorAll('.collapsible');
     var inst_collaps = M.Collapsible.init(elem_collaps, {});
 
-    let inp = document.getElementById('inp_nomali');
-    inp.disabled = false;
-
+    // Initialize the floating menu button
     var elem_menu = document.querySelectorAll('.fixed-action-btn');
     var inst_menu = M.FloatingActionButton.init(elem_menu, {
         direction:'bottom',
@@ -271,8 +273,20 @@ document.addEventListener('DOMContentLoaded', function() {
         toolbarEnabled:false
     });
 
+    // Initialize the modal window
     var elem_modal = document.querySelectorAll('.modal');
-    var inst_modal = M.Modal.init(elem_modal, {
-        
-    });
+    var inst_modal = M.Modal.init(elem_modal, {});
+
+    // Initialize the tooltips
+    var elem_tooltips = document.querySelectorAll('.tooltipped');
+    var inst_tooltips = M.Tooltip.init(elem_tooltips, {});
+
+    // Enable the text input
+    let inp = document.getElementById('inp_nomali');
+    inp.disabled = false;
 });
+
+/* CONTACT */
+function contact() {
+    window.location.href = "mailto:philjbt@ik.me";
+}

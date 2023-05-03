@@ -9,187 +9,207 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <!-- Floating Menu -->
-      <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red">
-          <i class="large material-icons">info</i>
-        </a>
-        <ul>
-          <li onclick="openModal(0)"><a class="btn-floating blue"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 576 512"><!-- From Awesomefont --><path d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg></a></li>
-        </ul>
-      </div>
-      <!-- Modal -->
-      <div id="modalInfos" class="modal bottom-sheet">
-        <div class="modal-content">
-          <h4 id="mdl_title"></h4>
-          <p id="mdl_content"></p>
+  <main>
+    <div class="container">
+      <div class="row">
+        <!-- Floating Menu -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">info</i>
+          </a>
+          <ul>
+            <li onclick="openModal(0)"><a class="btn-floating blue"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 576 512"><!-- From Awesomefont --><path d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg></a></li>
+          </ul>
+        </div>
+        <!-- Modal -->
+        <div id="modalInfos" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h4 id="mdl_title"></h4>
+            <p id="mdl_content"></p>
+          </div>
+        </div>
+        <!-- Search bar -->
+        <div class="col s12 searchbar">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">search</i>
+            <input disabled type="text" id="inp_nomali" class="autocomplete">
+            <label for="inp_nomali">Nom de l'aliment</label>
+          </div>
         </div>
       </div>
-      <!-- Search bar -->
-      <div class="col s12 searchbar">
-        <div class="input-field col s12">
-          <i class="material-icons prefix">search</i>
-          <input disabled type="text" id="inp_nomali" class="autocomplete">
-          <label for="inp_nomali">Nom de l'aliment</label>
+      <div class="row">
+        <!-- Title -->
+        <div class="row">
+          <div class="col s12">
+            <h3 id="tt">...</h3>
+          </div>
+        </div>
+        <!-- Salicylates -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div id="card_sa" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Salicylates</span>
+                <div id="sa">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip chipsa green darken-4">Bas (0 mg)</div>
+                      <div class="chip chipsa yellow darken-4">Bas-moyen (> 0,06 mg)</div>
+                      <div class="chip chipsa orange darken-4">Moyen (> 0,10 mg)</div>
+                      <div class="chip chipsa red darken-4">Moyen-haut (> 0,60 mg)</div>
+                      <div class="chip chipsa purple darken-4">Haut (> 1.00 mg)</div>
+                      <div class="chip chipsa grey darken-4">Très haut (> 20.00 mg)</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Amines -->
+          <div class="col s12 m4">
+            <div id="card_am" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Amines</span>
+                <div id="am">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip">A : Amines</div>
+                      <div class="chip">H : Histamines</div>
+                      <div class="chip">L : Libérateurs d'histamines</div>
+                      <div class="chip">I : Inhibiteur d'enzymes</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Ph -->
+          <div class="col s12 m4">
+            <div id="card_ph" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Ph</span>
+                <div id="ph">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip light-green accent-2">Alcalinisant</div>
+                      <div class="chip light-green accent-2">À consommer au moins à 70%</div>
+                      <div class="chip light-green accent-2">Valeur jusqu'à -95</div>
+                      <div class="chip yellow accent-2">Acidifiant</div>
+                      <div class="chip yellow accent-2">À consommer peu ou pas du tout</div>
+                      <div class="chip yellow accent-2">Valeur jusqu'à +37</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- IG -->
+          <div class="col s12 m4">
+            <div id="card_ig" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Index glycémique</span>
+                <div id="ig">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip">Valeurs pour 100 gr</div>
+                      <div class="chip green">Faible : Entre 0 et 50</div>
+                      <div class="chip yellow">Moyen : Entre 51 et 70</div>
+                      <div class="chip red">Élevé : 71 et 100</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Pre/probiotique -->
+          <div class="col s12 m4">
+            <div id="card_bi" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Pré/Probiotique</span>
+                <div id="bi">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip">Les <b>probiotiques</b> sont les bonnes bactéries de l'intestin.</div>
+                      <div class="chip">Les <b>prébiotiques</b> sont la nourriture des <i>probiotiques</i>, ou plutôt leurs &laquo; friandises &raquo; : elles n'en ont pas besoin pour vivre, mais cela favorise leur croissance.</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fodmaps -->
+          <div class="col s12 m4">
+            <div id="card_fd" class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Fodmap</span>
+                <div id="fd">
+                  <div class="chip">...</div>
+                </div>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
+                    <div class="collapsible-body blue-grey darken-2"><span>
+                      <div class="chip"><b>F</b>ermentiscibles (<i>Fructanes et Galactanes</i>)<br/><b>O</b>ligosaccharides (<i>Fructanes et Galacto-olisaccharides</i>)<br/><b>D</b>isaccharides (<i>Lactose</i>)<br/><b>M</b>onosaccharides (<i>Fructose en excès du glucose</i>)<br/><b>A</b>nd<br/><b>P</b>olyols (<i>Sorbitol, mannitol, xylitol et maltitol</i>).</div>
+                      <div class="chip">Les FODMAP sont des glucides présents dans certains aliments et qui sont lentement (voire pas) absorbés par l'intestin</div>
+                    </span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Comments -->
+        <div class="col s12 m12">
+          <div id="card_cm" class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Commentaires</span>
+              <div id="cm">
+                <div class="chip">...</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <!-- Title -->
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container">
       <div class="row">
-        <div class="col s12">
-          <h3 id="tt">...</h3>
-        </div>
-      </div>
-      <!-- Salicylates -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div id="card_sa" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Salicylates</span>
-              <div id="sa">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip chipsa green darken-4">Bas (0 mg)</div>
-                    <div class="chip chipsa yellow darken-4">Bas-moyen (> 0,06 mg)</div>
-                    <div class="chip chipsa orange darken-4">Moyen (> 0,10 mg)</div>
-                    <div class="chip chipsa red darken-4">Moyen-haut (> 0,60 mg)</div>
-                    <div class="chip chipsa purple darken-4">Haut (> 1.00 mg)</div>
-                    <div class="chip chipsa grey darken-4">Très haut (> 20.00 mg)</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Amines -->
-        <div class="col s12 m4">
-          <div id="card_am" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Amines</span>
-              <div id="am">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip">A : Amines</div>
-                    <div class="chip">H : Histamines</div>
-                    <div class="chip">L : Libérateurs d'histamines</div>
-                    <div class="chip">I : Inhibiteur d'enzymes</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Ph -->
-        <div class="col s12 m4">
-          <div id="card_ph" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Ph</span>
-              <div id="ph">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip light-green accent-2">Alcalinisant</div>
-                    <div class="chip light-green accent-2">À consommer au moins à 70%</div>
-                    <div class="chip light-green accent-2">Valeur jusqu'à -95</div>
-                    <div class="chip yellow accent-2">Acidifiant</div>
-                    <div class="chip yellow accent-2">À consommer peu ou pas du tout</div>
-                    <div class="chip yellow accent-2">Valeur jusqu'à +37</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- IG -->
-        <div class="col s12 m4">
-          <div id="card_ig" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Index glycémique</span>
-              <div id="ig">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip">Valeurs pour 100 gr</div>
-                    <div class="chip green">Faible : Entre 0 et 50</div>
-                    <div class="chip yellow">Moyen : Entre 51 et 70</div>
-                    <div class="chip red">Élevé : 71 et 100</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Pre/probiotique -->
-        <div class="col s12 m4">
-          <div id="card_bi" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Pré/Probiotique</span>
-              <div id="bi">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip">Les <b>probiotiques</b> sont les bonnes bactéries de l'intestin.</div>
-                    <div class="chip">Les <b>prébiotiques</b> sont la nourriture des <i>probiotiques</i>, ou plutôt leurs &laquo; friandises &raquo; : elles n'en ont pas besoin pour vivre, mais cela favorise leur croissance.</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Fodmaps -->
-        <div class="col s12 m4">
-          <div id="card_fd" class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Fodmap</span>
-              <div id="fd">
-                <div class="chip">...</div>
-              </div>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body blue-grey darken-2"><span>
-                    <div class="chip"><b>F</b>ermentiscibles (<i>Fructanes et Galactanes</i>)<br/><b>O</b>ligosaccharides (<i>Fructanes et Galacto-olisaccharides</i>)<br/><b>D</b>isaccharides (<i>Lactose</i>)<br/><b>M</b>onosaccharides (<i>Fructose en excès du glucose</i>)<br/><b>A</b>nd<br/><b>P</b>olyols (<i>Sorbitol, mannitol, xylitol et maltitol</i>).</div>
-                    <div class="chip">Les FODMAP sont des glucides présents dans certains aliments et qui sont lentement (voire pas) absorbés par l'intestin</div>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Comments -->
-      <div class="col s12 m12">
-        <div id="card_cm" class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <span class="card-title">Commentaires</span>
-            <div id="cm">
-              <div class="chip">...</div>
-            </div>
-          </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Saphi</h5>
+          <p class="grey-text text-lighten-4">Ressources pour les canaris de la modernité.</p>
         </div>
       </div>
     </div>
-  </div>
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container">
+        &copy; 2023 Philippe Jaubert
+        <a class="grey-text text-lighten-4 right footer_btn tooltipped" data-position="top" data-tooltip="Accéder aux sources" target="_blank" href="https://github.com/PhilJbt/Saphi"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- From Awesomefont --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+        <a class="grey-text text-lighten-4 right footer_btn tooltipped" data-position="top" data-tooltip="Retours, suggestions" href="#!" onclick="contact();"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- From Awesomefont --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
 <script type="text/javascript" src="js/materialize.min.js"></script>
