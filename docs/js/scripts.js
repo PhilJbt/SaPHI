@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // If the user has never used the menu
     if (localStorage.getItem('menu_opened') !== 'true') {
-        // Store that the user has opened the menu
+        // Add listener to store the information if the user open the menu
         let menu_bouton = document.getElementById('menu');
         menu_bouton.addEventListener("click", function() {
             localStorage.setItem('menu_opened', 'true');
