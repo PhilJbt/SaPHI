@@ -237,6 +237,22 @@ function openModal(_id) {
             <h5>Fromage sans lactose</h5>
             Il est possible de connaitre le <b>taux de lactose d'un fromage</b>. Si l'étiquette informant de sa composition comporte &laquo; <i>Glucide : 0, dont Sucre : 0</i> &raquo;, cela signifie qu'<b>il est sans lactose</b>, ce dernier étant le &laquo; sucre du lait &raquo;.<br/>`;
             break;
+        // Légumes
+        case 4:
+            document.getElementById('mdl_title').innerHTML = 'Légumes';
+            document.getElementById('mdl_content').innerHTML = `
+            <h5>Anti-nutriments</h5>
+            Pour réduire les <b>anti-nutriments</b> présents dans les aliments végétaux, comme les <b>phytates</b>, les <b>lectines</b> ou les <b>oxalates</b>, faites-les <b>tremper</b>, <b>bouillir</b>, voire <b>germer</b>.<br/>`;
+            break;
+        // Réfrigérateur
+        case 5:
+            document.getElementById('mdl_title').innerHTML = 'Conservation au réfrigérateur';
+            document.getElementById('mdl_content').innerHTML = `
+            <h5>Réfrigérateur</h5>
+            Ne pas laisser un plat refroidir plus de deux heures à température ambiante.<br/>
+            Ne jamais mettre plat tiède frigo (la chaleur provoque de la condensation, ce qui augmente la température du réfrigérateur, et donc promeut la prolifération bactérienne dans ces aliments).<br/>
+            Le plat est à consommer dans les 3 jours.<br/>`;
+            break;
     }
 
     let elem_modal = document.querySelectorAll('.modal')[0];
