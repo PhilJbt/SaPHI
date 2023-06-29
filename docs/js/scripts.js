@@ -249,8 +249,8 @@ function openModal(_id) {
             document.getElementById('mdl_title').innerHTML = 'Conservation au réfrigérateur';
             document.getElementById('mdl_content').innerHTML = `
             <h5>Réfrigérateur</h5>
-            Ne pas laisser un plat refroidir plus de deux heures à température ambiante.<br/>
-            Ne jamais mettre plat tiède frigo (la chaleur provoque de la condensation, ce qui augmente la température du réfrigérateur, et donc promeut la prolifération bactérienne dans ces aliments).<br/>
+            Afin d'éviter la prolifération de bactéries, un plat <b>ne doit pas</b> être laissé à refroidir <b>plus de deux heures</b> à température ambiante.<br/>
+            Un plat chaud (ou tiède) ne doit pas être mis au réfrigirateur.<br/>
             Le plat est à consommer dans les 3 jours.<br/>`;
             break;
     }
