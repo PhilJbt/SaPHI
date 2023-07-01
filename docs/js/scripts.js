@@ -249,7 +249,7 @@ function openModal(_id) {
             document.getElementById('mdl_title').innerHTML = 'Conservation au réfrigérateur';
             document.getElementById('mdl_content').innerHTML = `
             <h5>Réfrigérateur</h5>
-            Afin d'éviter la prolifération de bactéries, un plat <b>ne doit pas</b> être laissé à refroidir <b>plus de deux heures</b> à température ambiante.<br/>
+            Afin d'éviter la prolifération de bactéries, un plat <b>ne doit pas</b> être laissé à refroidir <b>plus de deux heures</b> à température ambiante, avant d'être stocké au réfrigérateur.<br/>
             Un plat chaud (ou tiède) ne doit pas être mis au réfrigirateur.<br/>
             Le plat est à consommer dans les 3 jours.<br/>`;
             break;
@@ -338,6 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('menu_opened', 'true');
         
         // Show the discovery in 3 seconds
+        /*
         setTimeout(() => {
             let elem_disco = document.querySelectorAll('.tap-target');
             let instance_discovery = M.TapTarget.getInstance(elem_disco[0]);
@@ -350,6 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 instance_discovery.close();
             }, 5000);
         }, 3000);
+        */
     }
 
     // Enable the text input
