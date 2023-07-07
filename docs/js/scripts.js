@@ -260,6 +260,12 @@ function openModal(_id) {
     inst_modal.open();
 }
 
+/*             CONTACT            */
+function launchContact() {
+    let strAddr = "ZW0ra2kjdGJqbGlocA==";
+    window.location.href = `mailto:${atob(strAddr).replace("+", ".").replace("#", "@").split("").reverse().join("")}`;
+}
+
 /*     PROCESS DISTANT DATA       */
 function parseJson(_objData, _data) {
     window['aliments'] = _data;
