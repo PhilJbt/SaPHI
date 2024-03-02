@@ -7,10 +7,10 @@ function setCardOpacity(_id, _show) {
 function load_Salicylates(_val) {
     let str = '<div class="chip chipsa ';
 
-    if (_val === '?') {
+    if (_val === null) {
         str += '">Inconnu';
 
-        setCardOpacity('card_sa', false);
+        setCardOpacity('card_salicylate', false);
     }
     else {
         let val = Number(_val);
@@ -28,9 +28,9 @@ function load_Salicylates(_val) {
         else
             str += 'grey darken-4';
 
-        str += `"> ${_val}`;
+        str += `"><b>${_val}</b>`;
 
-        setCardOpacity('card_sa', true);
+        setCardOpacity('card_salicylate', true);
     }
 
     str += '</div>';
@@ -40,41 +40,43 @@ function load_Salicylates(_val) {
 
 /*              AMINES            */
 function load_Amines_(_char) {
-    return `<div class="chip grey lighten-2">${_char.toUpperCase()}</div>`;
+    return `<div class="chip grey lighten-2"><b>${_char.toUpperCase()}</b></div>`;
 }
 
 function load_Amines(_flags) {
     let str = '<div class="chip chipam ';
-    switch(_flags.substr(0, 1)) {
-        case '0': str += 'green darken-2">Bien toléré'; break;
-        case '1': str += 'yellow darken-2">Bien Toléré en faible quantité'; break;
-        case '2': str += 'orange darken-2">Modérément toléré'; break;
-        case '3': str += 'red darken-2">Mal toléré'; break;
-        case '4': str += 'purple darken-2">Très mal toléré'; break;
-        default: str += '">Inconnu'; break;
+    if (_flags !== null) {
+        setCardOpacity('card_amine', true);
+        switch(_flags.substr(0, 1)) {
+            case '0': str += 'green darken-2">Bien toléré'; break;
+            case '1': str += 'yellow darken-2">Bien Toléré en faible quantité'; break;
+            case '2': str += 'orange darken-2">Modérément toléré'; break;
+            case '3': str += 'red darken-2">Mal toléré'; break;
+            case '4': str += 'purple darken-2">Très mal toléré'; break;
+        }
+
+        str += `</div>`;
+        let strFlags = _flags.substr(1);
+    
+        for (const char of strFlags)
+            str += load_Amines_(char);
     }
-    str += `</div>`;
-    let strFlags = _flags.substr(1);
-
-    for (const char of strFlags)
-        str += load_Amines_(char);
-
-    if (_flags === '?')
-        setCardOpacity('card_am', false);
-    else
-        setCardOpacity('card_am', true);
+    else {
+        str += '">Inconnu</div>';
+        setCardOpacity('card_amine', false);
+    }
 
     return str;
 }
 
-/*                PH              */
-function load_Ph(_val) {
+/*                POTENTIEL HYDROGENE              */
+function load_Potentielhydrogene(_val) {
     let str = '<div class="chip chipph ';
 
-    if (_val === '?') {
+    if (_val === null) {
         str += '">Inconnu';
 
-        setCardOpacity('card_ph', false);
+        setCardOpacity('card_potentielhydrogene', false);
     }
     else {
         let val = Number(_val);
@@ -84,57 +86,69 @@ function load_Ph(_val) {
         else
         str += 'yellow accent-2';
 
-        str += `"> ${_val}`;
+        str += `"><b>${_val}</b>`;
 
-        setCardOpacity('card_ph', true);
+        setCardOpacity('card_potentielhydrogene', true);
     }
     str += '</div>';
     return str;
 }
 
-/*        INDEX GLYCEMIQUE        */
-function load_IG(_val) {
+/*        GLYCEMIE        */
+function load_Glycemie_(_val, _name) {
+    let val = Number(_val);
     let str = '<div class="chip chipig ';
 
-    if (_val === '?') {
-        str += '">Inconnu';
-
-        setCardOpacity('card_ig', false);
-    }
-    else {
-        let val = Number(_val);
-
-        if (val <= 50)
+    if (val <= 50)
         str += 'green';
-        else if (val <= 70)
+    else if (val <= 70)
         str += 'yellow';
-        else
+    else
         str += 'red';
 
-        str += `"> ${_val}`;
+    str += `">${_name} : <b>${_val}</b></div>`;
+    
+    return str;
+}
+function load_Glycemie(_indice, _charge) {
+    let str = '';
 
-        setCardOpacity('card_ig', true);
+    if (_indice === null
+        && _charge === null)
+        setCardOpacity('card_glycemie', false);
+    else {
+        setCardOpacity('card_glycemie', true);
+
+        if (_indice !== null)
+            str += load_Glycemie_(_indice, 'Indice');
+        if (_charge !== null)
+            str += load_Glycemie_(_charge, 'Charge');
     }
-    str += '</div>';
+    
     return str;
 }
 
-/*         PRE/PROBIOTIQUE        */
-function load_Biotique(_val) {
-    let str = '<div class="chip chipbi ';
-    switch(_val) {
-        case '1': str += 'blue">Prébiotique'; break;
-        case '2': str += 'blue">Probiotique'; break;
-        default: str += 'grey lighten-1">Non'; break;
+/*         FIBRES        */
+function load_Fibre_(_val, _name) {
+    return `<div class="chip chipig">${_name} : <b>${_val}</b></div>`;
+}
+function load_Fibre(_sol, _ins) {
+    let str = '';
+
+    if (_sol === null
+        && _ins === null) {
+        setCardOpacity('card_fibre', false);
+        str += '<div class="chip">Néant.</div>';
     }
+    else {
+        setCardOpacity('card_fibre', true);
 
-    str += `</div>`;
-
-    if (_val === '?')
-        setCardOpacity('card_bi', false);
-    else
-        setCardOpacity('card_bi', true);
-
+        if (_sol !== null)
+            str += load_Fibre_(_sol, 'Solubles');
+        if (_ins !== null)
+            str += load_Fibre_(_ins, 'Insolubles');
+    }
+    
     return str;
 }
 
@@ -150,10 +164,10 @@ function load_Fodmap(_val) {
 
     str += `</div>`; 
 
-    if (_val === '?')
-        setCardOpacity('card_fd', false);
+    if (_val === null)
+        setCardOpacity('card_fodmap', false);
     else
-        setCardOpacity('card_fd', true);
+        setCardOpacity('card_fodmap', true);
 
     return str;
 }
@@ -161,11 +175,11 @@ function load_Fodmap(_val) {
 /*          LOAD COMMENTS         */
 function load_Comments(_com) {
     if (_com === null) {
-        setCardOpacity('card_cm', false);
+        setCardOpacity('card_commentaire', false);
         return 'Néant.';
     }
     else {
-        setCardOpacity('card_cm', true);
+        setCardOpacity('card_commentaire', true);
         return _com;
     }
 }
@@ -173,15 +187,18 @@ function load_Comments(_com) {
 /*         LOAD FOOD INFOS        */
 function findElem(_name) {
     var obj = {
-        "am": "?",
-        "cm": null,
-        "fd": "?",
-        "ig": "?",
-        "nm": "Introuvable",
-        "ph": "?",
-        "sa": "?"
+        "amine": null,
+        "commentaire": null,
+        "fodmap": null,
+        "indiceglycemique": null,
+        "chargeglycemique": null,
+        "name": "Introuvable",
+        "potentielhydrogene": null,
+        "salicylate": null,
+        "fibresoluble": null,
+        "fibreinsoluble": null
     };
-    Object.keys(window['aliments']).forEach(x => obj = window['aliments'][x].nm === _name ? window['aliments'][x] : obj);
+    Object.keys(window['aliments']).forEach(x => obj = window['aliments'][x].name === _name ? window['aliments'][x] : obj);
     return obj;
 }
 
@@ -192,13 +209,13 @@ function load_Food() {
     
     document.getElementById('tt').innerHTML = nodeVal;
 
-    document.getElementById('sa').innerHTML = load_Salicylates(elem['sa']);
-    document.getElementById('am').innerHTML = load_Amines(elem['am']);
-    document.getElementById('ph').innerHTML = load_Ph(elem['ph']);
-    document.getElementById('ig').innerHTML = load_IG(elem['ig']);
-    document.getElementById('bi').innerHTML = load_Biotique(elem['bi']);
-    document.getElementById('fd').innerHTML = load_Fodmap(elem['fd']);
-    document.getElementById('cm').innerHTML = load_Comments(elem['cm']);
+    document.getElementById('sa').innerHTML = load_Salicylates(elem['salicylate']);
+    document.getElementById('am').innerHTML = load_Amines(elem['amine']);
+    document.getElementById('ph').innerHTML = load_Potentielhydrogene(elem['potentielhydrogene']);
+    document.getElementById('ig').innerHTML = load_Glycemie(elem['indiceglycemique'], elem['chargeglycemique']);
+    document.getElementById('fi').innerHTML = load_Fibre(elem['fibresoluble'], elem['fibreinsoluble']);
+    document.getElementById('fd').innerHTML = load_Fodmap(elem['fodmap']);
+    document.getElementById('cm').innerHTML = load_Comments(elem['commentaire']);
 }
 
 /*           OPEN MODAL           */
@@ -253,6 +270,26 @@ function openModal(_id) {
             Un plat chaud (ou tiède) ne doit pas être mis au réfrigirateur.<br/>
             Le plat est à consommer dans les 3 jours.<br/>`;
             break;
+        // Pré/Probiotiques
+        case 6:
+            document.getElementById('mdl_title').innerHTML = 'Pré/Probiotiques';
+            document.getElementById('mdl_content').innerHTML = `
+            <ul class="collection with-header">
+                <li class="collection-header"><h4>Les prébiotiques</h4> sont des molécules (l’inuline, les fructo-oligosaccharides (ou FOS), les galacto-oligosaccharides (ou GOS) et le lactulose) favorisant la croissance de bactéries intestinales bénéfiques.</li>
+                <li class="collection-item">Certains fruits (Ail, Artichaut, Asperge, Chicorée, etc) ;</li>
+                <li class="collection-item">Certains légumes (Banane, Ananas, Pomme, etc) ;</li>
+                <li class="collection-item">Certaines légumineuses (Lentille, Pois chiche, Haricot noir et rouge, etc) ;</li>
+                <li class="collection-item">Certaines céréales et céréales complètes (Avoine, Blé entier, Lin, Seigle, etc) ;</li>
+                <li class="collection-item">Certaines oléagineux (Amandes, Pistaches, Noix, etc).</li>
+            </ul>
+            <br/>
+            <ul class="collection with-header">
+                <li class="collection-header"><h4>Les probiotiques</h4> sont des micro-organismes bénéfiques pour la santé intestinale se nourissant des prébiotiques.</li>
+                <li class="collection-item">Les boissons fermentées (Kéfir, Kombucha, etc) ;</li>
+                <li class="collection-item">Les légumes fermentés (Tempeh, Natto, Miso, Kimchi, Choucroute, Soyu, Tamari, etc) ;</li>
+                <li class="collection-item">Vinaigre de cidre.</li>
+            </ul>`;
+            break;
     }
 
     let elem_modal = document.querySelectorAll('.modal')[0];
@@ -267,10 +304,18 @@ function launchContact() {
 }
 
 /*     PROCESS DISTANT DATA       */
+const removeAccents = str => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 function parseJson(_objData, _data) {
     window['aliments'] = _data;
+    
+    // Remove all accents
+    for (let i = 0; i < window['aliments'].length; ++i)
+        if (Array.from(window['aliments'][i].name.normalize('NFD')).length !== Array.from(window['aliments'][i].name).length)
+            window['aliments'][i].name = removeAccents(window['aliments'][i].name);
+
+    // Prepare a specific dict for auto-complete
     for (const elem of Object.entries(_data))
-        _objData.dict[elem[1].nm] = null;
+        _objData.dict[elem[1].name] = null;
 }
 
 /*      RETRIEVE DISTANT DATA     */
@@ -293,9 +338,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove any entered text
     document.getElementById('inp_nomali').value = '';
 
+    // Bind text input to the accent remover function
+    document.getElementById('inp_nomali').addEventListener('input', (event) => {
+        document.getElementById('inp_nomali').value = removeAccents(event.target.value); 
+    });
+
     // Retrieve the distant food list file
     retrieveJson(objData);
-
+    
     // Initialize the autocomplete input
     let options = {
         data: objData.dict,

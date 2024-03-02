@@ -76,7 +76,7 @@ blockquote {
 	padding: 1.25rem;
 }
 
-#sa, #am, #ph, #ig, #bi, #fd, #cm {
+#sa, #am, #ph, #ig, #fi, #fd, #cm {
 	margin: 2em !important;
 }
 
@@ -84,9 +84,12 @@ blockquote {
 	font-weight: 600 !important;
 }
 
-.chip {
-	font-weight: 600 !important;
+.chip, .chip-white {
+	font-weight: 500 !important;
 	height: unset;
+}
+.white {
+	color: white !important;
 }
 
 .chipsa {
@@ -127,4 +130,8 @@ blockquote {
 
 .searchbar {
 	margin-top: 1.5em;
+}
+
+.mb-0 {
+	margin-bottom: 0px !important;
 }
