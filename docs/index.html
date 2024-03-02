@@ -18,6 +18,9 @@
             <i class="large material-icons">info</i>
           </a>
           <ul>
+            <li onclick="launchContact()"><a class="btn-floating blue waves-effect waves-light tooltipped" data-position="left" data-tooltip="Contact">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24"><title>email-edit-outline</title><path d="M19.07 13.88L13 19.94V22H15.06L21.12 15.93M22.7 13.58L21.42 12.3C21.32 12.19 21.18 12.13 21.04 12.13C20.89 12.14 20.75 12.19 20.65 12.3L19.65 13.3L21.7 15.3L22.7 14.3C22.89 14.1 22.89 13.78 22.7 13.58M11 18H4V8L12 13L20 8V10H22V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H11V18M20 6L12 11L4 6H20Z" /></svg>
+            </a></li>
             <li onclick="openModal(6)"><a class="btn-floating blue waves-effect waves-light tooltipped" data-position="left" data-tooltip="Pré/Probiotiques">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24"><title>molecule</title><path d="M7.27,10L9,7H14.42L15.58,5L15.5,4.5A1.5,1.5 0 0,1 17,3A1.5,1.5 0 0,1 18.5,4.5C18.5,5.21 18,5.81 17.33,5.96L16.37,7.63L17.73,10L18.59,8.5L18.5,8A1.5,1.5 0 0,1 20,6.5A1.5,1.5 0 0,1 21.5,8C21.5,8.71 21,9.3 20.35,9.46L18.89,12L20.62,15C21.39,15.07 22,15.71 22,16.5A1.5,1.5 0 0,1 20.5,18A1.5,1.5 0 0,1 19,16.5V16.24L17.73,14L16.37,16.37L17.33,18.04C18,18.19 18.5,18.79 18.5,19.5A1.5,1.5 0 0,1 17,21A1.5,1.5 0 0,1 15.5,19.5L15.58,19L14.42,17H10.58L9.42,19L9.5,19.5A1.5,1.5 0 0,1 8,21A1.5,1.5 0 0,1 6.5,19.5C6.5,18.79 7,18.19 7.67,18.04L8.63,16.37L4.38,9C3.61,8.93 3,8.29 3,7.5A1.5,1.5 0 0,1 4.5,6A1.5,1.5 0 0,1 6,7.5C6,7.59 6,7.68 6,7.76L7.27,10M10.15,9L8.42,12L10.15,15H14.85L16.58,12L14.85,9H10.15Z" /></svg>
             </a></li>
@@ -131,7 +134,7 @@
                     <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
                     <div class="collapsible-body blue-grey darken-2"><span>
                       <div class="chip"><b>F</b>ermentiscibles (<i>Fructanes et Galactanes</i>)<br/><b>O</b>ligosaccharides (<i>Fructanes et Galacto-olisaccharides</i>)<br/><b>D</b>isaccharides (<i>Lactose</i>)<br/><b>M</b>onosaccharides (<i>Fructose en excès du glucose</i>)<br/><b>A</b>nd<br/><b>P</b>olyols (<i>Sorbitol, mannitol, xylitol et maltitol</i>).</div>
-                      <div class="chip">Les <b>FODMAP</b> sont des glucides présents dans certains aliments et qui sont lentement (voire ne sont pas) absorbés par l'intestin.</div>
+                      <div class="chip">Les <b>FODMAP</b> sont des glucides présents dans certains aliments et qui sont lentement (voire pas) absorbés par l'intestin</div>
                     </span></div>
                   </li>
                 </ul>
@@ -176,8 +179,8 @@
                   <li>
                     <div class="collapsible-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
                     <div class="collapsible-body blue-grey darken-2"><span>
-                      <div class="chip light-green accent-2"><b>Alcalinisant</b> : À consommer au moins à 70% (valeur jusqu'à -95)</div>
-                      <div class="chip yellow accent-2"><b>Acidifiant</b> : À consommer peu ou pas du tout (valeur jusqu'à +37)</div>
+                      <div class="chip light-green accent-2">Alcalinisant : À consommer au moins à 70% (valeur jusqu'à -95)</div>
+                      <div class="chip yellow accent-2">Acidifiant : À consommer peu ou pas du tout (valeur jusqu'à +37)</div>
                     </span></div>
                   </li>
                 </ul>
@@ -237,7 +240,7 @@
       <div class="container">
         &copy; 2023 Philippe Jaubert
         <a class="grey-text text-lighten-4 right footer_btn tooltipped" data-position="top" data-tooltip="Accéder aux sources" target="_blank" href="https://github.com/PhilJbt/Saphi"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- From Awesomefont --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
-        <a class="grey-text text-lighten-4 right footer_btn tooltipped" data-position="top" data-tooltip="Retours, suggestions" href="#!" onclick="launchContact();"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- From Awesomefont --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
+        <a class="grey-text text-lighten-4 right footer_btn tooltipped" data-position="top" data-tooltip="Retours, suggestions" href="#!" onclick="contact();"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- From Awesomefont --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
       </div>
     </div>
   </footer>

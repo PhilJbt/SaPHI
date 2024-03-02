@@ -13,7 +13,7 @@ function load_Salicylates(_val) {
         setCardOpacity('card_salicylate', false);
     }
     else {
-        let val = Number(_val);
+        let val = Number(_val.replace(/[^\d.-]/g, ''));
 
         if (val <= 0.06)
             str += 'green darken-4';
@@ -47,7 +47,7 @@ function load_Amines(_flags) {
     let str = '<div class="chip chipam ';
     if (_flags !== null) {
         setCardOpacity('card_amine', true);
-        switch(_flags.substr(0, 1)) {
+        switch(_flags.replace(/[^\d.-]/g, '').substr(0, 1)) {
             case '0': str += 'green darken-2">Bien toléré'; break;
             case '1': str += 'yellow darken-2">Bien Toléré en faible quantité'; break;
             case '2': str += 'orange darken-2">Modérément toléré'; break;
@@ -79,7 +79,7 @@ function load_Potentielhydrogene(_val) {
         setCardOpacity('card_potentielhydrogene', false);
     }
     else {
-        let val = Number(_val);
+        let val = Number(_val.replace(/[^\d.-]/g, ''));
 
         if (val <= 0)
         str += 'light-green accent-2';
@@ -96,7 +96,7 @@ function load_Potentielhydrogene(_val) {
 
 /*        GLYCEMIE        */
 function load_Glycemie_(_val, _name) {
-    let val = Number(_val);
+    let val = Number(_val.replace(/[^\d.-]/g, ''));
     let str = '<div class="chip chipig ';
 
     if (val <= 50)
@@ -144,9 +144,9 @@ function load_Fibre(_sol, _ins) {
         setCardOpacity('card_fibre', true);
 
         if (_sol !== null)
-            str += load_Fibre_(_sol, 'Solubles');
+            str += load_Fibre_(_sol.replace(/[^\d.-]/g, ''), 'Solubles');
         if (_ins !== null)
-            str += load_Fibre_(_ins, 'Insolubles');
+            str += load_Fibre_(_ins.replace(/[^\d.-]/g, ''), 'Insolubles');
     }
     
     return str;
@@ -155,7 +155,7 @@ function load_Fibre(_sol, _ins) {
 /*              FODMAP            */
 function load_Fodmap(_val) {
     let str = '<div class="chip chipfd ';
-    switch(_val) {
+    switch(_val.replace(/[^\d.-]/g, '')) {
         case '0': str += 'green lighten-1">Non'; break;
         case '1': str += 'orange lighten-1">FODMAP'; break;
         case '2': str += 'red lighten-1">FODMAP'; break;
@@ -297,6 +297,12 @@ function openModal(_id) {
     inst_modal.open();
 }
 
+/*             CONTACT            */
+function launchContact() {
+    let strAddr = "ZW0ra2kjdGJqbGlocA==";
+    window.location.href = `mailto:${atob(strAddr).replace("+", ".").replace("#", "@").split("").reverse().join("")}`;
+}
+
 /*     PROCESS DISTANT DATA       */
 const removeAccents = str => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 function parseJson(_objData, _data) {
@@ -410,7 +416,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /* CONTACT */
-function launchContact() {
-    let strAddr = "ZW0ra2kjdGJqbGlocA==";
-    window.location.href = `mailto:${atob(strAddr).replace("+", ".").replace("#", "@").split("").reverse().join("")}`;
+function contact() {
+    window.location.href = atob("bWFpbHRvOnBoaWxqYnRAaWsubWU=");
 }
