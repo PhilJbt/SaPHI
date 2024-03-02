@@ -114,8 +114,10 @@ function load_Glycemie(_indice, _charge) {
     let str = '';
 
     if (_indice === null
-        && _charge === null)
+        && _charge === null) {
         setCardOpacity('card_glycemie', false);
+        str = '<div class="chip chipig">Inconnu</div>';
+    }
     else {
         setCardOpacity('card_glycemie', true);
 
@@ -138,7 +140,7 @@ function load_Fibre(_sol, _ins) {
     if (_sol === null
         && _ins === null) {
         setCardOpacity('card_fibre', false);
-        str += '<div class="chip">Néant.</div>';
+        str += '<div class="chip">Inconnu</div>';
     }
     else {
         setCardOpacity('card_fibre', true);
@@ -155,19 +157,22 @@ function load_Fibre(_sol, _ins) {
 /*              FODMAP            */
 function load_Fodmap(_val) {
     let str = '<div class="chip chipfd ';
-    switch(_val.replace(/[^\d.-]/g, '')) {
-        case '0': str += 'green lighten-1">Non'; break;
-        case '1': str += 'orange lighten-1">FODMAP'; break;
-        case '2': str += 'red lighten-1">FODMAP'; break;
-        default: str += '">Inconnu'; break;
+
+    if (_val === null) {
+        str += '">Inconnu';
+        setCardOpacity('card_fodmap', false);
+    }
+    else {
+        setCardOpacity('card_fodmap', true);
+        
+        switch(_val.replace(/[^\d.-]/g, '')) {
+            case '0': str += 'green lighten-1">Non'; break;
+            case '1': str += 'orange lighten-1">FODMAP'; break;
+            case '2': str += 'red lighten-1">FODMAP'; break;
+        }
     }
 
-    str += `</div>`; 
-
-    if (_val === null)
-        setCardOpacity('card_fodmap', false);
-    else
-        setCardOpacity('card_fodmap', true);
+    str += '</div>';
 
     return str;
 }
@@ -216,6 +221,11 @@ function load_Food() {
     document.getElementById('fi').innerHTML = load_Fibre(elem['fibresoluble'], elem['fibreinsoluble']);
     document.getElementById('fd').innerHTML = load_Fodmap(elem['fodmap']);
     document.getElementById('cm').innerHTML = load_Comments(elem['commentaire']);
+
+    // Update url and page title with food name
+    const title = `SaPHI · ${nodeVal}`;
+    document.title = title;
+    window.history.pushState({ page: nodeVal }, title, `${window.location.origin + window.location.pathname}?nom=${btoa(encodeURIComponent(nodeVal))}`);
 }
 
 /*           OPEN MODAL           */
@@ -342,8 +352,8 @@ function parseJson(_objData, _data) {
 }
 
 /*      RETRIEVE DISTANT DATA     */
-function retrieveJson(_objData) {
-    fetch('data/aliments.json')
+async function retrieveJson(_objData) {
+    const response = await fetch('data/aliments.json')
         .then(function (response) {
             return response.json();
         })
@@ -363,11 +373,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Bind text input to the accent remover function
     document.getElementById('inp_nomali').addEventListener('input', (event) => {
-        document.getElementById('inp_nomali').value = removeAccents(event.target.value); 
+        document.getElementById('inp_nomali').value = removeAccents(event.target.value);
     });
 
     // Retrieve the distant food list file
-    retrieveJson(objData);
+    retrieveJson(objData).then(function () {
+        // Enable the text input
+        let inp = document.getElementById('inp_nomali');
+        inp.disabled = false;
+
+        // Get the food name filled in the url param
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const foodName = urlParams.get('nom');
+        document.getElementById('inp_nomali').value = decodeURIComponent(atob(foodName));
+        document.getElementById('inp_nomali').focus();
+        load_Food();
+    });
     
     // Initialize the autocomplete input
     let options = {
@@ -406,19 +428,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // If the user has never used the menu
     if (localStorage.getItem('menu_opened') !== 'true') {
-        /*
         // Add listener to store the information if the user open the menu
         let menu_bouton = document.getElementById('menu');
         menu_bouton.addEventListener("click", function() {
             localStorage.setItem('menu_opened', 'true');
-        });*/
+        });
         
         // Disable automatic opening
         localStorage.setItem('menu_opened', 'true');
         
-        // Show the discovery in 3 seconds
-        /*
-        setTimeout(() => {
+        // Show the discovery after 3 seconds
+        // setTimeout(() => {
             let elem_disco = document.querySelectorAll('.tap-target');
             let instance_discovery = M.TapTarget.getInstance(elem_disco[0]);
             instance_discovery.open();
@@ -429,14 +449,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 let instance_discovery = M.TapTarget.getInstance(elem_disco[0]);
                 instance_discovery.close();
             }, 5000);
-        }, 3000);
-        */
+        // }, 3000);
     }
-
-    // Enable the text input
-    let inp = document.getElementById('inp_nomali');
-    inp.disabled = false;
-});
+}, false);
 
 /*             CONTACT            */
 function launchContact() {
