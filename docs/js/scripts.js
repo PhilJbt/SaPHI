@@ -386,9 +386,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const foodName = urlParams.get('nom');
-        document.getElementById('inp_nomali').value = decodeURIComponent(atob(foodName));
-        document.getElementById('inp_nomali').focus();
-        load_Food();
+        if (foodName !== null) {
+            document.getElementById('inp_nomali').value = decodeURIComponent(atob(foodName));
+            document.getElementById('inp_nomali').focus();
+            load_Food();
+        }
     });
     
     // Initialize the autocomplete input
