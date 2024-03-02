@@ -1,6 +1,6 @@
 # SaPHI
 
 ![](logo.png)
-![](screenrecording.png)
+![](screenrecording.gif)
  
 [Philjbt.github.io/Saphi](https://philjbt.github.io/Saphi/)
