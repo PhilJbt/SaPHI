@@ -297,12 +297,6 @@ function openModal(_id) {
     inst_modal.open();
 }
 
-/*             CONTACT            */
-function launchContact() {
-    let strAddr = "ZW0ra2kjdGJqbGlocA==";
-    window.location.href = `mailto:${atob(strAddr).replace("+", ".").replace("#", "@").split("").reverse().join("")}`;
-}
-
 /*     PROCESS DISTANT DATA       */
 const removeAccents = str => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 function parseJson(_objData, _data) {
@@ -416,6 +410,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /* CONTACT */
-function contact() {
-    window.location.href = atob("bWFpbHRvOnBoaWxqYnRAaWsubWU=");
+function launchContact() {
+    let strAddr = "ZW0ra2kjdGJqbGlocA==";
+    window.location.href = `mailto:${atob(strAddr).replace("+", ".").replace("#", "@").split("").reverse().join("")}`;
 }
