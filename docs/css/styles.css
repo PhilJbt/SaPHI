@@ -135,3 +135,15 @@ blockquote {
 .mb-0 {
 	margin-bottom: 0px !important;
 }
+
+.mt-0 {
+	margin-top: 0px !important;
+}
+
+.mt-3 {
+	margin-top:40px;
+}
+
+.collection-icons {
+	vertical-align: text-bottom;
+}
