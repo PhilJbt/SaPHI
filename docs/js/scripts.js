@@ -97,7 +97,7 @@ function load_Potentielhydrogene(_val) {
 /*        GLYCEMIE        */
 function load_Glycemie_(_val, _name) {
     let val = Number(_val.replace(/[^\d.-]/g, ''));
-    let str = '<div class="chip chipig ';
+    let str = '<div class="chip white ';
 
     if (val <= 50)
         str += 'green darken-4';
