@@ -100,11 +100,11 @@ function load_Glycemie_(_val, _name) {
     let str = '<div class="chip chipig ';
 
     if (val <= 50)
-        str += 'green';
+        str += 'white green darken-4';
     else if (val <= 70)
-        str += 'yellow';
+        str += 'white yellow darken-4';
     else
-        str += 'red';
+        str += 'white red darken-4';
 
     str += `">${_name} : <b>${_val}</b></div>`;
     
@@ -287,27 +287,27 @@ function openModal(_id) {
             <ul class="collection with-header mt-3 z-depth-1">
                 <li class="collection-header">
                     <h5>Prébiotiques</h5>
-                    <h6>Ce sont des molécules (l’inuline, les fructo-oligosaccharides (ou FOS), les galacto-oligosaccharides (ou GOS) et le lactulose) favorisant la croissance de bactéries intestinales bénéfiques.</h6>
+                    <h6>Ce sont des molécules <i>(l’inuline, les fructo-oligosaccharides (ou FOS), les galacto-oligosaccharides (ou GOS) et le lactulose)</i> favorisant la croissance de bactéries intestinales bénéfiques.</h6>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certains <b>fruits</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Ail, Artichaut, Asperge, Chicorée, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Ail, Artichaut, Asperge, Chicorée, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certains <b>légumes</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Banane, Ananas, Pomme, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Banane, Ananas, Pomme, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>légumineuses</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Lentille, Pois chiche, Haricot noir et rouge, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Lentille, Pois chiche, Haricot noir et rouge, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>céréales et céréales complètes</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Avoine, Blé entier, Lin, Seigle, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Avoine, Blé entier, Lin, Seigle, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>oléagineux</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Amandes, Pistaches, Noix, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Amandes, Pistaches, Noix, etc</i></p>
                 </li>
             </ul>
             <br/>
@@ -318,11 +318,11 @@ function openModal(_id) {
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Les <b>boissons fermentées</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Kéfir, Kombucha, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Kéfir, Kombucha, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Les <b>légumes fermentés</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> Tempeh, Natto, Miso, Kimchi, Choucroute, Soyu, Tamari, etc</p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Tempeh, Natto, Miso, Kimchi, Choucroute, Soyu, Tamari, etc</i></p>
                 </li>
                 <li class="collection-item">
                     Le <b>vinaigre de cidre</b>.
