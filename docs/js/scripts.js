@@ -291,23 +291,23 @@ function openModal(_id) {
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certains <b>fruits</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Ail, Artichaut, Asperge, Chicorée, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Ail, artichaut, asperge, chicorée, caroube, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certains <b>légumes</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Banane, Ananas, Pomme, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Banane, ananas, pomme, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>légumineuses</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Lentille, Pois chiche, Haricot noir et rouge, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Lentille, pois chiche, haricot noir et rouge, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>céréales et céréales complètes</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Avoine, Blé entier, Lin, Seigle, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Avoine, blé entier, lin, seigle, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Certaines <b>oléagineux</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Amandes, Pistaches, Noix, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Amandes, pistaches, noix du brésil, etc</i></p>
                 </li>
             </ul>
             <br/>
@@ -318,14 +318,21 @@ function openModal(_id) {
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Les <b>boissons fermentées</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Kéfir, Kombucha, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Kéfir, kombucha, kvass, etc</i></p>
                 </li>
                 <li class="collection-item">
                     <p class="mb-0">Les <b>légumes fermentés</b></p>
-                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Tempeh, Natto, Miso, Kimchi, Choucroute, Soyu, Tamari, etc</i></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Tempeh, natto, miso, kimchi, choucroute, soyu, tamari, etc</i></p>
+                </li>
+                <li class="collection-item">
+                    <p class="mb-0">Certains <b>produits laitiers</b></p>
+                    <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Le lait cru, le fromage cru, le babeurre, les yaourts à base de lait de vache/chèvre/brebis, etc</i></p>
                 </li>
                 <li class="collection-item">
                     Le <b>vinaigre de cidre</b>.
+                </li>
+                <li class="collection-item">
+                    Le <b>pain au levin</b>.
                 </li>
             </ul>`;
             break;
