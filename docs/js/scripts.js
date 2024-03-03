@@ -329,10 +329,10 @@ function openModal(_id) {
                     <p class="mt-0 grey-text text-darken-1"><i class="material-icons tiny collection-icons">chevron_right</i> <i>Le lait cru, le fromage cru, le babeurre, les yaourts à base de lait de vache/chèvre/brebis, etc</i></p>
                 </li>
                 <li class="collection-item">
-                    Le <b>vinaigre de cidre</b>.
+                    Le <b>vinaigre de cidre</b>
                 </li>
                 <li class="collection-item">
-                    Le <b>pain au levin</b>.
+                    Le <b>pain au levin</b>
                 </li>
             </ul>`;
             break;
