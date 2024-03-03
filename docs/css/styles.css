@@ -147,3 +147,10 @@ blockquote {
 .collection-icons {
 	vertical-align: text-bottom;
 }
+
+.favicon {
+	height: auto;
+	width: 30px;
+	vertical-align: sub;
+	margin-right: 10px;
+}
