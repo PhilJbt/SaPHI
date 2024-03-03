@@ -151,7 +151,7 @@
         "fibresoluble": null,
         "fodmap": "0",
         "indiceglycemique": "0",
-        "name": "Anchois (à l’huile d’olive)",
+        "name": "Anchois (à l'huile d'olive)",
         "potentielhydrogene": "7.25",
         "salicylate": null
     },
@@ -859,7 +859,7 @@
         "fibresoluble": null,
         "fodmap": "2",
         "indiceglycemique": "60",
-        "name": "Châtaigne d’eau (conserve), Marrons",
+        "name": "Châtaigne d'eau (conserve), Marrons",
         "potentielhydrogene": "-8.99",
         "salicylate": "2.92"
     },
@@ -1543,7 +1543,7 @@
         "fibresoluble": null,
         "fodmap": null,
         "indiceglycemique": null,
-        "name": "Écorce d’orange",
+        "name": "Écorce d'orange",
         "potentielhydrogene": null,
         "salicylate": null
     },
@@ -2239,7 +2239,7 @@
         "fibresoluble": null,
         "fodmap": "0",
         "indiceglycemique": "0",
-        "name": "Huile d’olives",
+        "name": "Huile d'olives",
         "potentielhydrogene": "-0.03",
         "salicylate": ">1"
     },
@@ -2299,7 +2299,7 @@
         "fibresoluble": null,
         "fodmap": "1",
         "indiceglycemique": "50",
-        "name": "Jus d’ananas",
+        "name": "Jus d'ananas",
         "potentielhydrogene": "-5.2",
         "salicylate": "0.16"
     },
@@ -2311,7 +2311,7 @@
         "fibresoluble": "0.28",
         "fodmap": "0",
         "indiceglycemique": "45",
-        "name": "Jus d’orange",
+        "name": "Jus d'orange",
         "potentielhydrogene": "-3.66",
         "salicylate": "0.18"
     },
@@ -3355,7 +3355,7 @@
         "fibresoluble": "0.92",
         "fodmap": "2",
         "indiceglycemique": "30",
-        "name": "Poire william’s",
+        "name": "Poire william's",
         "potentielhydrogene": "-2.1",
         "salicylate": "0.25"
     },
@@ -4087,7 +4087,7 @@
         "fibresoluble": null,
         "fodmap": "0",
         "indiceglycemique": "65",
-        "name": "Sirop d’érable",
+        "name": "Sirop d'érable",
         "potentielhydrogene": "-5.45",
         "salicylate": "0"
     },
@@ -4099,7 +4099,7 @@
         "fibresoluble": null,
         "fodmap": null,
         "indiceglycemique": "25",
-        "name": "Sirop de sucre roux, Sirop d’agave",
+        "name": "Sirop de sucre roux, Sirop d'agave",
         "potentielhydrogene": "0",
         "salicylate": "0.1"
     },
@@ -4675,7 +4675,7 @@
         "fibresoluble": null,
         "fodmap": null,
         "indiceglycemique": null,
-        "name": "Zeste d’orange",
+        "name": "Zeste d'orange",
         "potentielhydrogene": "-5.61",
         "salicylate": null
     },

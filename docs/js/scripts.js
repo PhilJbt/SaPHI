@@ -348,10 +348,10 @@ const removeAccents = str => str.normalize('NFD').replace(/[\u0300-\u036f]/g, ''
 function parseJson(_objData, _data) {
     window['aliments'] = _data;
     
-    // Remove all accents
+    // Remove all accents and convert to uppercase
     for (let i = 0; i < window['aliments'].length; ++i)
         if (Array.from(window['aliments'][i].name.normalize('NFD')).length !== Array.from(window['aliments'][i].name).length)
-            window['aliments'][i].name = removeAccents(window['aliments'][i].name);
+            window['aliments'][i].name = removeAccents(window['aliments'][i].name).toUpperCase();
 
     // Prepare a specific dict for auto-complete
     for (const elem of Object.entries(_data))
@@ -378,9 +378,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove any entered text
     document.getElementById('inp_nomali').value = '';
 
-    // Bind text input to the accent remover function
+    // Bind text input to the accent remover and uppercase convertion function
     document.getElementById('inp_nomali').addEventListener('input', (event) => {
-        document.getElementById('inp_nomali').value = removeAccents(event.target.value);
+        document.getElementById('inp_nomali').value = removeAccents(event.target.value).toUpperCase();
     });
 
     // Retrieve the distant food list file
