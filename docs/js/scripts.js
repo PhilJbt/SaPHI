@@ -100,11 +100,11 @@ function load_Glycemie_(_val, _name) {
     let str = '<div class="chip chipig ';
 
     if (val <= 50)
-        str += 'white green darken-4';
+        str += 'green darken-4';
     else if (val <= 70)
-        str += 'white yellow darken-4';
+        str += 'yellow darken-4';
     else
-        str += 'white red darken-4';
+        str += 'red darken-4';
 
     str += `">${_name} : <b>${_val}</b></div>`;
     
