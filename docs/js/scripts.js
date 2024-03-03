@@ -349,9 +349,11 @@ function parseJson(_objData, _data) {
     window['aliments'] = _data;
     
     // Remove all accents and convert to uppercase
-    for (let i = 0; i < window['aliments'].length; ++i)
+    for (let i = 0; i < window['aliments'].length; ++i) {
+        window['aliments'][i].name = window['aliments'][i].name.toUpperCase();
         if (Array.from(window['aliments'][i].name.normalize('NFD')).length !== Array.from(window['aliments'][i].name).length)
-            window['aliments'][i].name = removeAccents(window['aliments'][i].name).toUpperCase();
+            window['aliments'][i].name = removeAccents(window['aliments'][i].name);
+    }
 
     // Prepare a specific dict for auto-complete
     for (const elem of Object.entries(_data))
