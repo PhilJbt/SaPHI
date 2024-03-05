@@ -72,30 +72,29 @@
           </div>
         </div>
         <!-- Data -->
-        <ul class="collapsible">
+        <ul class="collapsible mb-2">
           <!-- Salicylates -->
           <li id="col-sa">
             <div class="collapsible-header"><i class="material-icons">
               <svg fill="#a53f48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>alpha-s-circle</title><path d="M11,7A2,2 0 0,0 9,9V11A2,2 0 0,0 11,13H13V15H9V17H13A2,2 0 0,0 15,15V13A2,2 0 0,0 13,11H11V9H15V7H11M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z" /></svg>
             </i>Salicylates</div>
-            <div class="collapsible-body colla-body"><span>
-              <div id="sa">
-                <div class="chip">...</div>
-              </div>
-              <ul class="colla collapsible">
-                <li>
-                  <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                  <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                    <div class="chip white green darken-4">Bas (0 mg)</div>
-                    <div class="chip white yellow darken-4">Bas-moyen (> 0,06 mg)</div>
-                    <div class="chip white orange darken-4">Moyen (> 0,10 mg)</div>
-                    <div class="chip white red darken-4">Moyen-haut (> 0,60 mg)</div>
-                    <div class="chip white purple darken-4">Haut (> 1.00 mg)</div>
-                    <div class="chip white grey darken-4">Très haut (> 20.00 mg)</div>
-                    <div class="chip">Valeurs exprimées en mg pour 100 g.</div>
-                  </span></div>
-                </li>
-              </ul>
+            <div class="collapsible-body colla-body">
+              <span>
+                <!-- Chips -->
+                <div id="sa">
+                  <div class="chip">...</div>
+                </div>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-sa'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-sa' class='dropdown-content'>
+                  <div class="chip white green darken-4">Bas (0 mg)</div>
+                  <div class="chip white yellow darken-4">Bas-moyen (> 0,06 mg)</div>
+                  <div class="chip white orange darken-4">Moyen (> 0,10 mg)</div>
+                  <div class="chip white red darken-4">Moyen-haut (> 0,60 mg)</div>
+                  <div class="chip white purple darken-4">Haut (> 1.00 mg)</div>
+                  <div class="chip white grey darken-4">Très haut (> 20.00 mg)</div>
+                  <div class="chip gris">Valeurs exprimées en mg pour 100 g.</div>
+                </ul>
             </span></div>
           </li>
           <!-- Amines -->
@@ -105,21 +104,10 @@
             </i>Amines</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="am">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i
-                        class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                        <div class="chip"><b>A</b> : Amines</div>
-                        <div class="chip"><b>H</b> : Histamines</div>
-                        <div class="chip"><b>L</b> : Libérateurs d'histamines</div>
-                        <div class="chip"><b>I</b> : Inhibiteur d'enzymes</div>
-                      </span></div>
-                  </li>
-                </ul>
               </span>
             </div>
           </li>
@@ -130,18 +118,10 @@
             </i>Fodmap</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="fd">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip"><b>F</b>ermentiscibles (<i>Fructanes et Galactanes</i>)<br/><b>O</b>ligosaccharides (<i>Fructanes et Galacto-olisaccharides</i>)<br/><b>D</b>isaccharides (<i>Lactose</i>)<br/><b>M</b>onosaccharides (<i>Fructose en excès du glucose</i>)<br/><b>A</b>nd<br/><b>P</b>olyols (<i>Sorbitol, mannitol, xylitol et maltitol</i>).</div>
-                      <div class="chip">Les <b>FODMAP</b> sont des glucides présents dans certains aliments et qui sont lentement (voire ne sont pas) absorbés par l'intestin.</div>
-                    </span></div>
-                  </li>
-                </ul>
               </span>
             </div>
           </li>
@@ -152,20 +132,18 @@
             </i>Glycémie</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="ig">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip">L'<b>indice glycémique</b> évalue la rapidité avec laquelle un glucide contenu dans un aliment est absorbé dans le sang et élève la glycémie.</div>
-                      <div class="chip">La <b>charge glycémique</b> combine la rapidité et la quantité de glucides dans une portion alimentaire, offrant une indication plus précise de son impact sur la glycémie.</div>
-                      <div class="chip white green darken-4">Faible : Entre 0 et 50</div>
-                      <div class="chip white yellow darken-4">Moyen : Entre 51 et 70</div>
-                      <div class="chip white red darken-4">Élevé : 71 et 100</div>
-                    </span></div>
-                  </li>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-ig'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-ig' class='dropdown-content'>
+                  <div class="chip white green darken-4">Faible : Entre 0 et 50</div>
+                  <div class="chip white yellow darken-4">Moyen : Entre 51 et 70</div>
+                  <div class="chip white red darken-4">Élevé : 71 et 100</div>
+                  <div class="chip gris">L'<b>indice glycémique</b> évalue la rapidité avec laquelle un glucide contenu dans un aliment est absorbé dans le sang et élève la glycémie.</div>
+                  <div class="chip gris">La <b>charge glycémique</b> combine la rapidité et la quantité de glucides dans une portion alimentaire, offrant une indication plus précise de son impact sur la glycémie.</div>
                 </ul>
               </span>
             </div>
@@ -177,20 +155,18 @@
             </i>Lipides</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="li">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip"><b>AG</b> : Acide Gras</div>
-                      <div class="chip"><b>AGS</b> : Acide Gras Saturés</div>
-                      <div class="chip"><b>AGMI</b> : Acide Gras Mono-insaturés</div>
-                      <div class="chip"><b>AGPI</b> : Acide Gras Poly-insaturés</div>
-                      <div class="chip">Valeurs exprimées en g pour 100 g.</div>
-                    </span></div>
-                  </li>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-li'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-li' class='dropdown-content'>
+                  <div class="chip gris"><b>AG</b> : Acide Gras</div>
+                  <div class="chip gris"><b>AGS</b> : Acide Gras Saturés</div>
+                  <div class="chip gris"><b>AGMI</b> : Acide Gras Mono-insaturés</div>
+                  <div class="chip gris"><b>AGPI</b> : Acide Gras Poly-insaturés</div>
+                  <div class="chip gris">Valeurs exprimées en g pour 100 g.</div>
                 </ul>
               </span>
             </div>
@@ -202,16 +178,14 @@
             </i>Protéines</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="pr">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip">Valeurs exprimées en g pour 100 g.</div>
-                    </span></div>
-                  </li>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-pr'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-pr' class='dropdown-content'>
+                  <div class="chip gris">Valeurs exprimées en g pour 100 g.</div>
                 </ul>
               </span>
             </div>
@@ -223,17 +197,15 @@
             </i>Ph</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="ph">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip light-green accent-2"><b>Alcalinisant</b> : À consommer au moins à 70% (valeur jusqu'à -95)</div>
-                      <div class="chip yellow accent-2"><b>Acidifiant</b> : À consommer peu ou pas du tout (valeur jusqu'à +37)</div>
-                    </span></div>
-                  </li>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-ph'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-ph' class='dropdown-content'>
+                  <div class="chip light-green accent-2"><b>Alcalinisant</b> : À consommer au moins à 70% (valeur jusqu'à -95)</div>
+                  <div class="chip yellow accent-2"><b>Acidifiant</b> : À consommer peu ou pas du tout (valeur jusqu'à +37)</div>
                 </ul>
               </span>
             </div>
@@ -245,19 +217,17 @@
             </i>Fibres</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="fi">
                   <div class="chip">...</div>
                 </div>
-                <ul class="collapsible colla">
-                  <li>
-                    <div class="collapsible-header colla-header blue-grey darken-2"><i class="material-icons">arrow_drop_down</i>Informations</div>
-                    <div class="collapsible-body colla-body blue-grey darken-2"><span>
-                      <div class="chip">Les <b>fibres</b> sont des glucides très spécifiques non digérés par notre organisme.</div>
-                      <div class="chip">Les <b>fibres solubles</b> sont fermentées (digérées) par notre microbiote intestinal produisant des composés bénéfiques pour notre organisme.</div>
-                      <div class="chip">Les <b>fibres insolubles</b> augmentent le volume du bol alimentaire et assurent un meilleur transit.</div>
-                      <div class="chip">Valeurs exprimées en mg pour 100 g.</div>
-                    </span></div>
-                  </li>
+                <!-- Dropdown -->
+                <a class="dropdown-trigger waves-effect waves-light btn-flat btn-floating" data-target='dropdown-fi'><i class="material-icons btn-nfo">info</i></a>
+                <ul id='dropdown-fi' class='dropdown-content'>
+                  <div class="chip gris">Les <b>fibres</b> sont des glucides très spécifiques non digérés par notre organisme.</div>
+                  <div class="chip gris">Les <b>fibres solubles</b> sont fermentées (digérées) par notre microbiote intestinal produisant des composés bénéfiques pour notre organisme.</div>
+                  <div class="chip gris">Les <b>fibres insolubles</b> augmentent le volume du bol alimentaire et assurent un meilleur transit.</div>
+                  <div class="chip gris">Valeurs exprimées en mg pour 100 g.</div>
                 </ul>
               </span>
             </div>
@@ -269,6 +239,7 @@
             </i>Commentaires</div>
             <div class="collapsible-body colla-body">
               <span>
+                <!-- Chips -->
                 <div id="cm">
                   <div class="chip">...</div>
                 </div>

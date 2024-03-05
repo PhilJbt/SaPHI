@@ -289,6 +289,10 @@ function load_Food() {
     const title = `SaPHI · ${nodeVal}`;
     document.title = title;
     window.history.pushState({ page: nodeVal }, title, `${window.location.origin + window.location.pathname}?nom=${btoa(encodeURIComponent(nodeVal))}`);
+
+    // Initialize new generated dropdown info menu
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {});
 }
 
 /*           OPEN MODAL           */

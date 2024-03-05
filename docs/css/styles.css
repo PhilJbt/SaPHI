@@ -9,10 +9,16 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	-webkit-user-select: none;
+    user-select: none;
 }
 
 main {
 	flex: 1 0 auto;
+}
+
+#tt {
+	margin: 0em 0em 0.75em 0em;
 }
 
 .badge {
@@ -89,6 +95,7 @@ blockquote {
 
 #sa, #am, #ph, #ig, #fi, #fd, #li, #pr, #cm {
 	margin: 10px !important;
+	display:inline-block !important;
 }
 
 .card-title {
@@ -102,6 +109,10 @@ blockquote {
 }
 .white {
 	color: white !important;
+}
+.gris {
+	color: black !important;
+	background-color: #d2d2d2 !important;
 }
 
 .chipsa {
@@ -148,6 +159,10 @@ blockquote {
 	margin-bottom: 0px !important;
 }
 
+.mb-2 {
+	margin-bottom: 40px !important;
+}
+
 .collection-icons {
 	vertical-align: text-bottom;
 }
@@ -157,4 +172,14 @@ blockquote {
 	width: 30px;
 	vertical-align: sub;
 	margin-right: 10px;
+}
+
+.btn-nfo {
+	color: black !important;
+}
+
+#dropdown-sa, #dropdown-ig, #dropdown-li, #dropdown-pr, #dropdown-ph, #dropdown-fi {
+  width: unset !important;
+  height: unset !important;
+  padding: 20px !important;
 }
