@@ -49,13 +49,23 @@ blockquote {
 	bottom: unset;
 }
 
-.collapsible {
+.colla {
+	border: none;
+	color: white;
 	margin-bottom: 0px !important;
+}
+
+.colla-header, .colla-body {
 	border: none;
 }
 
-.collapsible-header, .collapsible-body {
-	border: none;
+.collapsible {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.collapsible-header {
+	background-color: #37474f;
+	color: white !important;
 }
 
 .card {
@@ -63,7 +73,7 @@ blockquote {
 	transition: opacity .25s;
 }
 
-.collapsible-header, .fixed-action-btn, .prefix, label {
+.colla-header, .fixed-action-btn, .prefix, label {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -72,12 +82,13 @@ blockquote {
 	user-select: none;
 }
 
-.collapsible-body {
+.colla-body {
 	padding: 1.25rem;
+	background-color: #e5e5e5;
 }
 
-#sa, #am, #ph, #ig, #fi, #fd, #cm {
-	margin: 2em !important;
+#sa, #am, #ph, #ig, #fi, #fd, #li, #pr, #cm {
+	margin: 10px !important;
 }
 
 .card-title {
@@ -87,6 +98,7 @@ blockquote {
 .chip, .chip-white {
 	font-weight: 500 !important;
 	height: unset;
+	background-color: white !important;
 }
 .white {
 	color: white !important;
@@ -134,14 +146,6 @@ blockquote {
 
 .mb-0 {
 	margin-bottom: 0px !important;
-}
-
-.mt-0 {
-	margin-top: 0px !important;
-}
-
-.mt-3 {
-	margin-top:40px;
 }
 
 .collection-icons {

@@ -1,36 +1,36 @@
 /*       SET THE CARD OPACITY     */
-function setCardOpacity(_id, _show) {
-    document.getElementById(_id).style.opacity = (_show === true ? 1.0 : .25);
+function setTabVisibility(_id, _show) {
+    document.getElementById(_id).style.display = (_show === true ? 'block' : 'none');
 }
 
 /*           SALYCILATES          */
 function load_Salicylates(_val) {
-    let str = '<div class="chip chipsa ';
+    let str = '<div class="chip chipsa';
 
     if (_val === null) {
         str += '">Inconnu';
 
-        setCardOpacity('card_salicylate', false);
+        setTabVisibility('col-sa', false);
     }
     else {
         let val = Number(_val.replace(/[^\d.-]/g, ''));
 
         if (val <= 0.06)
-            str += 'green darken-4';
+            str += ' green darken-4"><b>Bas';
         else if (val <= 0.10)
-            str += 'yellow darken-4';
+            str += ' yellow darken-4"><b>Bas-moyen';
         else if (val <= 0.60)
-            str += 'orange darken-4';
+            str += ' orange darken-4"><b>Moyen';
         else if (val <= 1.0)
-            str += 'red darken-4';
+            str += ' red darken-4"><b>Moyen-haut';
         else if (val <= 20.0)
-            str += 'purple darken-4';
+            str += ' purple darken-4"><b>Haut';
         else
-            str += 'grey darken-4';
+            str += ' grey darken-4"><b>Très haut';
 
-        str += `"><b>${_val}</b>`;
+        str += `</b> (${_val})`;
 
-        setCardOpacity('card_salicylate', true);
+        setTabVisibility('col-sa', true);
     }
 
     str += '</div>';
@@ -40,13 +40,19 @@ function load_Salicylates(_val) {
 
 /*              AMINES            */
 function load_Amines_(_char) {
-    return `<div class="chip grey lighten-2"><b>${_char.toUpperCase()}</b></div>`;
+    const fullWord = {
+        'A': "Amines",
+        'H': "Histamines",
+        'L': "Libérateurs d'histamines",
+        'I': "Inhibiteur d'enzymes",
+    };
+    return `<div class="chip grey lighten-2"><b>${fullWord[_char.toUpperCase()]}</b></div>`;
 }
 
 function load_Amines(_flags) {
     let str = '<div class="chip chipam ';
     if (_flags !== null) {
-        setCardOpacity('card_amine', true);
+        setTabVisibility('col-am', true);
         switch(_flags.replace(/[^\d.-]/g, '').substr(0, 1)) {
             case '0': str += 'green darken-2">Bien toléré'; break;
             case '1': str += 'yellow darken-2">Bien Toléré en faible quantité'; break;
@@ -63,7 +69,7 @@ function load_Amines(_flags) {
     }
     else {
         str += '">Inconnu</div>';
-        setCardOpacity('card_amine', false);
+        setTabVisibility('col-am', false);
     }
 
     return str;
@@ -76,7 +82,7 @@ function load_Potentielhydrogene(_val) {
     if (_val === null) {
         str += '">Inconnu';
 
-        setCardOpacity('card_potentielhydrogene', false);
+        setTabVisibility('col-ph', false);
     }
     else {
         let val = Number(_val.replace(/[^\d.-]/g, ''));
@@ -88,7 +94,7 @@ function load_Potentielhydrogene(_val) {
 
         str += `"><b>${_val}</b>`;
 
-        setCardOpacity('card_potentielhydrogene', true);
+        setTabVisibility('col-ph', true);
     }
     str += '</div>';
     return str;
@@ -115,11 +121,11 @@ function load_Glycemie(_indice, _charge) {
 
     if (_indice === null
         && _charge === null) {
-        setCardOpacity('card_glycemie', false);
+            setTabVisibility('col-ig', false);
         str = '<div class="chip chipig">Inconnu</div>';
     }
     else {
-        setCardOpacity('card_glycemie', true);
+        setTabVisibility('col-ig', true);
 
         if (_indice !== null)
             str += load_Glycemie_(_indice, 'Indice');
@@ -139,11 +145,11 @@ function load_Fibre(_sol, _ins) {
 
     if (_sol === null
         && _ins === null) {
-        setCardOpacity('card_fibre', false);
+            setTabVisibility('col-fi', false);
         str += '<div class="chip">Inconnu</div>';
     }
     else {
-        setCardOpacity('card_fibre', true);
+        setTabVisibility('col-fi', true);
 
         if (_sol !== null)
             str += load_Fibre_(_sol.replace(/[^\d.-]/g, ''), 'Solubles');
@@ -160,10 +166,10 @@ function load_Fodmap(_val) {
 
     if (_val === null) {
         str += '">Inconnu';
-        setCardOpacity('card_fodmap', false);
+        setTabVisibility('col-fd', false);
     }
     else {
-        setCardOpacity('card_fodmap', true);
+        setTabVisibility('col-fd', true);
         
         switch(_val.replace(/[^\d.-]/g, '')) {
             case '0': str += 'green lighten-1">Non'; break;
@@ -177,14 +183,64 @@ function load_Fodmap(_val) {
     return str;
 }
 
+/*          PROTEINES            */
+function load_Proteine(_val) {
+    let str = '<div class="chip"><b>';
+
+    if (_val === null) {
+        str += 'Inconnu';
+        setTabVisibility('col-pr', false);
+    }
+    else {
+        str += _val;
+        setTabVisibility('col-pr', true);
+    }
+
+    str += '</b></div>';
+
+    return str;
+}
+
+/*          LIPIDES            */
+function load_Lipide_(_val, _type) {
+    let str = `<div class="chip">${_type} : <b>${_val}</b></div>`;
+    return str;
+}
+
+function load_Lipide(_ag, _ags, _agmi, _agpi) {
+    let str = '';
+
+    if (_ag === null
+        && _ags === null
+        && _agmi === null
+        && _agpi === null) {
+        str += '<div class="chip">Inconnu</div><div class="chip">Inconnu</div><div class="chip">Inconnu</div><div class="chip">Inconnu</div>';
+        setTabVisibility('col-li', false);
+    }
+    else {
+        if (_ag !== null)
+            str += load_Lipide_(_ag, 'AG');
+        if (_ags !== null)
+            str += load_Lipide_(_ags, 'AGS');
+        if (_agmi !== null)
+            str += load_Lipide_(_agmi, 'AGMI');
+        if (_agpi !== null)
+            str += load_Lipide_(_agpi, 'AGPI');
+
+            setTabVisibility('col-li', true);
+    }
+
+    return str;
+}
+
 /*          LOAD COMMENTS         */
 function load_Comments(_com) {
     if (_com === null) {
-        setCardOpacity('card_commentaire', false);
+        setTabVisibility('col-cm', false);
         return 'Néant.';
     }
     else {
-        setCardOpacity('card_commentaire', true);
+        setTabVisibility('col-cm', true);
         return _com;
     }
 }
@@ -201,7 +257,12 @@ function findElem(_name) {
         "potentielhydrogene": null,
         "salicylate": null,
         "fibresoluble": null,
-        "fibreinsoluble": null
+        "fibreinsoluble": null,
+        "proteine": null,
+        "ag": null,
+        "ags": null,
+        "agmi": null,
+        "agpi": null,
     };
     Object.keys(window['aliments']).forEach(x => obj = window['aliments'][x].name === _name ? window['aliments'][x] : obj);
     return obj;
@@ -218,6 +279,8 @@ function load_Food() {
     document.getElementById('am').innerHTML = load_Amines(elem['amine']);
     document.getElementById('ph').innerHTML = load_Potentielhydrogene(elem['potentielhydrogene']);
     document.getElementById('ig').innerHTML = load_Glycemie(elem['indiceglycemique'], elem['chargeglycemique']);
+    document.getElementById('li').innerHTML = load_Lipide(elem['ag'], elem['ags'], elem['agmi'], elem['agpi']);
+    document.getElementById('pr').innerHTML = load_Proteine(elem['proteine']);
     document.getElementById('fi').innerHTML = load_Fibre(elem['fibresoluble'], elem['fibreinsoluble']);
     document.getElementById('fd').innerHTML = load_Fodmap(elem['fodmap']);
     document.getElementById('cm').innerHTML = load_Comments(elem['commentaire']);
