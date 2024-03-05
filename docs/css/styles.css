@@ -183,3 +183,7 @@ blockquote {
   height: unset !important;
   padding: 20px !important;
 }
+
+#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-ph, #col-fi, #col-cm {
+	display: none;
+}
