@@ -531,6 +531,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 5000);
         // }, 3000);
     }
+
+    // Update year in footer
+    document.getElementById('year-now').textContent = (new Date()).getFullYear();
 }, false);
 
 /*             CONTACT            */
