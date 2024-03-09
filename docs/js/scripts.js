@@ -482,7 +482,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize the collapsibles
     let elem_collaps = document.querySelectorAll('.collapsible');
-    M.Collapsible.init(elem_collaps, {});
+    M.Collapsible.init(elem_collaps, {
+        accordion: false
+    });
 
     // Initialize the floating menu button
     let elem_menu = document.querySelectorAll('.fixed-action-btn');
