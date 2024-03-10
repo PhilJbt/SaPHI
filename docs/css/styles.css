@@ -191,3 +191,7 @@ blockquote {
 #year-now {
 	display: inline;
 }
+
+.keyboard-focused .collapsible-header:focus {
+	background-color: #37474f !important;
+}
