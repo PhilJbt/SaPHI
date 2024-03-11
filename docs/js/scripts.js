@@ -234,6 +234,18 @@ function load_Lipide(_ag, _ags, _agmi, _agpi) {
 }
 
 /*          LOAD COMMENTS         */
+function load_Lectine(_com) {
+    if (_com === null) {
+        setTabVisibility('col-le', false);
+        return 'Néant.';
+    }
+    else {
+        setTabVisibility('col-le', true);
+        return _com;
+    }
+}
+
+/*          LOAD COMMENTS         */
 function load_Comments(_com) {
     if (_com === null) {
         setTabVisibility('col-cm', false);
@@ -263,6 +275,7 @@ function findElem(_name) {
         "ags": null,
         "agmi": null,
         "agpi": null,
+        "lectine": null,
     };
     Object.keys(window['aliments']).forEach(x => obj = window['aliments'][x].name === _name ? window['aliments'][x] : obj);
     return obj;
@@ -283,6 +296,7 @@ function load_Food() {
     document.getElementById('pr').innerHTML = load_Proteine(elem['proteine']);
     document.getElementById('fi').innerHTML = load_Fibre(elem['fibresoluble'], elem['fibreinsoluble']);
     document.getElementById('fd').innerHTML = load_Fodmap(elem['fodmap']);
+    document.getElementById('le').innerHTML = load_Lectine(elem['lectine']);
     document.getElementById('cm').innerHTML = load_Comments(elem['commentaire']);
 
     // Update url and page title with food name

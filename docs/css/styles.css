@@ -93,7 +93,7 @@ blockquote {
 	background-color: #e5e5e5;
 }
 
-#sa, #am, #ph, #ig, #fi, #fd, #li, #pr, #cm {
+#sa, #am, #ph, #ig, #fi, #fd, #li, #pr, #cm, #le {
 	margin: 10px !important;
 	display:inline-block !important;
 }
@@ -184,7 +184,7 @@ blockquote {
   padding: 20px !important;
 }
 
-#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-ph, #col-fi, #col-cm {
+#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-ph, #col-fi, #col-cm, #col-le {
 	display: none;
 }
 
