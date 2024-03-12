@@ -172,9 +172,9 @@ function load_Fodmap(_val) {
         setTabVisibility('col-fd', true);
         
         switch(_val.replace(/[^\d.-]/g, '')) {
-            case '0': str += 'green lighten-1">Non'; break;
-            case '1': str += 'orange lighten-1">FODMAP'; break;
-            case '2': str += 'red lighten-1">FODMAP'; break;
+            case '0': str += 'green lighten-1">Sans'; break;
+            case '1': str += 'orange lighten-1">Modéré'; break;
+            case '2': str += 'red lighten-1">Riche'; break;
         }
     }
 
