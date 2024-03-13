@@ -93,7 +93,7 @@ blockquote {
 	background-color: #e5e5e5;
 }
 
-#sa, #am, #ph, #ig, #fi, #fd, #li, #pr, #cm, #le {
+#sa, #am, #pr, #ig, #fi, #fd, #li, #pr, #cm, #le {
 	margin: 10px !important;
 	display:inline-block !important;
 }
@@ -123,7 +123,7 @@ blockquote {
 	color: #ffffff !important;
 }
 
-.chipph {
+.chippr {
 	color: #000 !important;
 }
 
@@ -178,13 +178,13 @@ blockquote {
 	color: black !important;
 }
 
-#dropdown-sa, #dropdown-ig, #dropdown-li, #dropdown-pr, #dropdown-ph, #dropdown-fi {
+#dropdown-sa, #dropdown-ig, #dropdown-li, #dropdown-pr, #dropdown-pr, #dropdown-fi {
   width: unset !important;
   height: unset !important;
   padding: 20px !important;
 }
 
-#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-ph, #col-fi, #col-cm, #col-le {
+#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-pr, #col-fi, #col-cm, #col-le {
 	display: none;
 }
 
@@ -194,4 +194,16 @@ blockquote {
 
 .keyboard-focused .collapsible-header:focus {
 	background-color: #37474f !important;
+}
+
+.green-dalton {
+	/* #b2ff59 */
+	background-image: linear-gradient(45deg, #b2ff59 33.33%, #98d94e 33.33%, #98d94e 50%, #b2ff59 50%, #b2ff59 83.33%, #98d94e 83.33%, #98d94e 100%);
+	background-size: 21.21px 21.21px;
+}
+
+.yellow-dalton {
+	/* #ff0 */
+	background-image: linear-gradient(135deg, #ffff00 33.33%, #d9d900 33.33%, #d9d900 50%, #ffff00 50%, #ffff00 83.33%, #d9d900 83.33%, #d9d900 100%);
+	background-size: 21.21px 21.21px;
 }

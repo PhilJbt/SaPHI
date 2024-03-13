@@ -76,13 +76,13 @@ function load_Amines(_flags) {
 }
 
 /*                POTENTIEL HYDROGENE              */
-function load_Potentielhydrogene(_val) {
-    let str = '<div class="chip chipph ';
+function load_Pral(_val) {
+    let str = '<div class="chip chippr ';
 
     if (_val === null) {
         str += '">Inconnu';
 
-        setTabVisibility('col-ph', false);
+        setTabVisibility('col-pr', false);
     }
     else {
         let val = Number(_val.replace(/[^\d.-]/g, ''));
@@ -94,7 +94,7 @@ function load_Potentielhydrogene(_val) {
 
         str += `"><b>${_val}</b>`;
 
-        setTabVisibility('col-ph', true);
+        setTabVisibility('col-pr', true);
     }
     str += '</div>';
     return str;
@@ -266,7 +266,7 @@ function findElem(_name) {
         "indiceglycemique": null,
         "chargeglycemique": null,
         "name": "Introuvable",
-        "potentielhydrogene": null,
+        "pral": null,
         "salicylate": null,
         "fibresoluble": null,
         "fibreinsoluble": null,
@@ -290,7 +290,7 @@ function load_Food() {
 
     document.getElementById('sa').innerHTML = load_Salicylates(elem['salicylate']);
     document.getElementById('am').innerHTML = load_Amines(elem['amine']);
-    document.getElementById('ph').innerHTML = load_Potentielhydrogene(elem['potentielhydrogene']);
+    document.getElementById('pr').innerHTML = load_Pral(elem['pral']);
     document.getElementById('ig').innerHTML = load_Glycemie(elem['indiceglycemique'], elem['chargeglycemique']);
     document.getElementById('li').innerHTML = load_Lipide(elem['ag'], elem['ags'], elem['agmi'], elem['agpi']);
     document.getElementById('pr').innerHTML = load_Proteine(elem['proteine']);
