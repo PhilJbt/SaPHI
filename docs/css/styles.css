@@ -93,7 +93,7 @@ blockquote {
 	background-color: #e5e5e5;
 }
 
-#sa, #am, #pr, #ig, #fi, #fd, #li, #pr, #cm, #le {
+#sa, #am, #pl, #ig, #fi, #fd, #li, #pr, #cm, #le {
 	margin: 10px !important;
 	display:inline-block !important;
 }
@@ -178,13 +178,13 @@ blockquote {
 	color: black !important;
 }
 
-#dropdown-sa, #dropdown-ig, #dropdown-li, #dropdown-pr, #dropdown-pr, #dropdown-fi {
+#dropdown-sa, #dropdown-ig, #dropdown-li, #dropdown-pl, #dropdown-pr, #dropdown-fi {
   width: unset !important;
   height: unset !important;
   padding: 20px !important;
 }
 
-#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pr, #col-pr, #col-fi, #col-cm, #col-le {
+#col-sa, #col-am, #col-fd, #col-ig, #col-li, #col-pl, #col-pr, #col-fi, #col-cm, #col-le {
 	display: none;
 }
 

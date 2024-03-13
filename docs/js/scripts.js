@@ -75,14 +75,14 @@ function load_Amines(_flags) {
     return str;
 }
 
-/*                POTENTIEL HYDROGENE              */
+/*                Pral              */
 function load_Pral(_val) {
-    let str = '<div class="chip chippr ';
+    let str = '<div class="chip chippl ';
 
     if (_val === null) {
         str += '">Inconnu';
 
-        setTabVisibility('col-pr', false);
+        setTabVisibility('col-pl', false);
     }
     else {
         let val = Number(_val.replace(/[^\d.-]/g, ''));
@@ -94,7 +94,7 @@ function load_Pral(_val) {
 
         str += `"><b>${_val}</b>`;
 
-        setTabVisibility('col-pr', true);
+        setTabVisibility('col-pl', true);
     }
     str += '</div>';
     return str;
@@ -290,7 +290,7 @@ function load_Food() {
 
     document.getElementById('sa').innerHTML = load_Salicylates(elem['salicylate']);
     document.getElementById('am').innerHTML = load_Amines(elem['amine']);
-    document.getElementById('pr').innerHTML = load_Pral(elem['pral']);
+    document.getElementById('pl').innerHTML = load_Pral(elem['pral']);
     document.getElementById('ig').innerHTML = load_Glycemie(elem['indiceglycemique'], elem['chargeglycemique']);
     document.getElementById('li').innerHTML = load_Lipide(elem['ag'], elem['ags'], elem['agmi'], elem['agpi']);
     document.getElementById('pr').innerHTML = load_Proteine(elem['proteine']);
