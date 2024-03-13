@@ -88,9 +88,9 @@ function load_Pral(_val) {
         let val = Number(_val.replace(/[^\d.-]/g, ''));
 
         if (val <= 0)
-        str += 'light-green accent-2';
+        str += 'green-dalton';
         else
-        str += 'yellow accent-2';
+        str += 'yellow-dalton';
 
         str += `"><b>${_val}</b>`;
 
@@ -234,14 +234,14 @@ function load_Lipide(_ag, _ags, _agmi, _agpi) {
 }
 
 /*          LOAD COMMENTS         */
-function load_Lectine(_com) {
-    if (_com === null) {
+function load_Lectine(_lec) {
+    if (_lec === null) {
         setTabVisibility('col-le', false);
         return 'Néant.';
     }
     else {
         setTabVisibility('col-le', true);
-        return _com;
+        return _lec;
     }
 }
 
