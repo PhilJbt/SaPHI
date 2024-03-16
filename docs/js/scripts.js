@@ -417,6 +417,125 @@ function openModal(_id) {
                 </li>
             </ul>`;
             break;
+        // Anti-nutriments
+        case 7:
+            document.getElementById('mdl_title').innerHTML = 'Anti-nutriments';
+            document.getElementById('mdl_content').innerHTML = `
+            <table class="highlight responsive-table">
+                <thead>
+                    <tr>
+                        <th>NOM</th>
+                        <th>PROVIENT DE</th>
+                        <th>NEUTRALISÉ PAR</th>
+                        <th>PROVOQUE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Les salicylates</td>
+                        <td>baies, fruits à coques</td>
+                        <td>une enzyme (la sulfotransferase)</td>
+                        <td>à long terme des saignements de l'estomac et de l'intestin, une dyspepsie, des réactions cutanées, l'intoxication du foie, et des réactions allergiques</td>
+                    </tr>
+                    <tr>
+                        <td>L'acide urique</td>
+                        <td>purines présentes principalement dans la chair, abats, oeufs, produits laitiers</td>
+                        <td>foie et reins</td>
+                        <td>la fatigue de ces organes à long terme</td>
+                    </tr>
+                    <tr>
+                        <td>Le souffre</td>
+                        <td>acides aminés (méthionine et cystéine) présents principalement dans la chair, oeufs, soja, quelques fruits à coques et graines</td>
+                        <td>calcium</td>
+                        <td>de l'ostéoporose à long terme</td>
+                    </tr>
+                    <tr>
+                        <td>L'acide phytique</td>
+                        <td>céréales, pseudo-céréales, légumineuses, fruits à coque, graines, pommes de terre</td>
+                        <td>trempage, germination, fermentation, cuisson</td>
+                        <td>des carences en fer, zinc, et calcium à long terme</td>
+                    </tr>
+                    <tr>
+                        <td>Les lectines</td>
+                        <td>céréales, pseudo-céréales, légumineuses, fruits à coque, graines, solanacées, produits laitiers, oeufs</td>
+                        <td>partiellement par trempage, germination, fermentation, cuisson (lectines du blé, appelé gluten, du soja, des arachides, et des légumes solanacées, sont très résistantes à la neutralisation)</td>
+                        <td>à long terme une porosité de l'intestin, des maladies neuro-dégénératives et inflammatoire, et des infections auto-immunes</td>
+                    </tr>
+                    <tr>
+                        <td>Les saponines</td>
+                        <td>légumineuses, pseudo-céréales, pomme de terre, vin</td>
+                        <td>trempage, cuisson, fermentation, le cholestérols et la bile</td>
+                        <td>à long terme une porosité de l'intestin et une perturbation des enzymes digestives</td>
+                    </tr>		
+                    <tr>
+                        <td>Le calcitriol, la solanine, la nicotine</td>
+                        <td>pommes de terre vertes, aubergines, piment, tomates, baies de goji</td>
+                        <td>la cuisson, le foie et les reins</td>
+                        <td>à long terme une calcinose, des douleurs musculaires, de l'arthrite, des insomnies et des problèmes de vésicules</td>
+                    </tr>
+                    <tr>
+                        <td>Les oligosaccharides</td>
+                        <td>légumineuses</td>
+                        <td>germination, fermentation et certaines bactéries du colon</td>
+                        <td>des gaz</td>
+                    </tr>
+                    <tr>
+                        <td>L'avidine</td>
+                        <td>blanc d'oeuf</td>
+                        <td>la cuisson</td>
+                        <td>des carences en vitamine B8</td>
+                    </tr>
+                    <tr>
+                        <td>Les oxalates</td>
+                        <td>l'acide oxalique provient de certains aliments (le son des céréales, fruits à coque, soja, épinard, rhubarbe, blette, chocolat, thé noir), mais est également un métabolite des levures et de la flore dysbiotique. Il provient également du métabolisme des acides aminés (glycine et sérine), du métabolisme de la vitamine C et du métabolisme du sucre</td>
+                        <td>partiellement par la cuisson</td>
+                        <td>à long terme des carences en calcium et magnésium, des calculs rénaux, des perturbations des enzymes digestives et de l'hyper-oxalurie</td>
+                    </tr>
+                    <tr>
+                        <td>Les inhibiteurs de la trypsine</td>
+                        <td>céréales, légumineuses</td>
+                        <td>partiellement par la cuisson et la germination</td>
+                        <td>à long terme une inhibition de la croissance, et une pancréatite</td>
+                    </tr>
+                    <tr>
+                        <td>Les inhibiteurs de l'alpha-amylase</td>
+                        <td>céréales, légumineuses, peau des fruits à coque, feuilles de stévia</td>
+                        <td>partiellement par la cuisson et la germination</td>
+                        <td>à long terme une candidose</td>
+                    </tr>
+                    <tr>
+                        <td>Les tanins</td>
+                        <td>légumineuses, thé, chocolat, vin, café, vinaigre</td>
+                        <td>la salive, partiellement par trempage et cuisson, à 90% par germination</td>
+                        <td>à long terme une déficience en zinc et en fer, un ralentissement la croissance, une perturbation de l'absorption des minéraux, une inhibition des enzymes digestives, une accélération de la coagulation et la nécrose du foie</td>
+                    </tr>
+                    <tr>
+                        <td>Les goitrogènes</td>
+                        <td>soja, arachides, légumes crucifères</td>
+                        <td>la cuisson et la fermentation</td>
+                        <td>à long terme de l'hypothyroïdisme</td>
+                    </tr>
+                    <tr>
+                        <td>Le cyanure</td>
+                        <td>fèves, tapioca, noyaux des fruits</td>
+                        <td>la cuisson et par le foie</td>
+                        <td>à long terme ou forte dose des dommages cérébraux et des léthargies</td>
+                    </tr>
+                    <tr>
+                        <td>La canavanine</td>
+                        <td>l'alfalfa (luzerne) germée</td>
+                        <td>la cuisson, le foie et les reins</td>
+                        <td>à long terme un lupus</td>
+                    </tr>
+                    <tr>
+                        <td>L'allicine et l'huile de moutarde</td>
+                        <td>oignons, ail, ciboulette, poireaux</td>
+                        <td>la cuisson, le foie et les reins</td>
+                        <td>à long terme une mauvaise haleine et une mauvaise odeur corporelle, un reflux acide, des maux d'estomac, de l'anémie, une mauvaise cicatrisation, des réactions allergiques, des avortements naturels</td>
+                    </tr>
+                </tbody>
+            </table>`;
+            break;
     }
 
     let elem_modal = document.querySelectorAll('.modal')[0];
